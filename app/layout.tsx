@@ -1,4 +1,4 @@
-import { Footer } from './components'
+import { Footer, Nabbarprueba } from './components'
 import { Socials } from './models/index'
 
 interface Props {
@@ -8,6 +8,7 @@ interface Props {
 function principalLayout({ children }: Props) {
   return (
     <div>
+      <Nabbarprueba />
       {children}
       <Footer pathNames={[Socials.TWITTER, Socials.LINKEDIN, Socials.GITHUB]} />
     </div>
