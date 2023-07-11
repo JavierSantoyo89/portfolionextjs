@@ -1,0 +1,14 @@
+.sectionContainer {
+  width: 90vw;
+  background-color: rgb(43, 202, 226);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+  align-items: center;
+
+}
+
+.sectionCard {
+  background-color: blue;
+}
