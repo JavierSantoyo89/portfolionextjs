@@ -1,3 +1,0 @@
-*!* Buscar la forma de cambiar el favicon
-
-prueba de branch para respaldar los link con ruteo
