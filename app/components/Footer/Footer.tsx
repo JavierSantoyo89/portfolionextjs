@@ -9,7 +9,7 @@ function Footer() {
       <div className="px- py-1 mx-auto overflow-hidden sm:px-6 lg:px-8">
         <div className="flex justify-center mt-8 space-x-6">
           <span className="inline-flex justify-center w-full gap-3 m-auto md:justify-start md:w-auto">
-            <Link
+            <a
               href={"https://www.linkedin.com/in/javiersantoyor/"}
               className="w-6 h-6 transition fill-black hover:text-blue-500"
             >
@@ -21,8 +21,8 @@ function Footer() {
                 role="img"
                 aria-label="logo linkedin"
               ></Image>
-            </Link>
-            <Link
+            </a>
+            <a
               href={"https://github.com/JavierSantoyo89"}
               className="w-6 h-6 transition fill-black hover:text-blue-500"
             >
@@ -34,8 +34,8 @@ function Footer() {
                 role="img"
                 aria-label="logo github"
               ></Image>
-            </Link>
-            <Link
+            </a>
+            <a
               href={"https://twitter.com/FcoSantoyoRios"}
               className="w-6 h-6 transition fill-black hover:text-blue-500"
             >
@@ -47,7 +47,7 @@ function Footer() {
                 role="img"
                 aria-label="logo twitter"
               ></Image>
-            </Link>
+            </a>
           </span>
         </div>
         <p className="mt-1 text-center">

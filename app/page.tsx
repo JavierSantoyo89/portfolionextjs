@@ -31,7 +31,7 @@ En mi portafolio encontraras algunos proyectos personales y otros en producción
 Si quieres saber mas de mi entra al apartado “sobre mi” y si deseas contáctame 
 
         </p>
-      </section>{" "}
+      </section>
       <section className="glass">
         <p>
           En esta seccion muestro algunas tecnologias con las que tengo
@@ -47,7 +47,7 @@ Si quieres saber mas de mi entra al apartado “sobre mi” y si deseas contáct
             alt="Typescript logo"
             width={size}
           ></Image>
-          <Image src={reactSVG} alt="React logo" width={size}></Image>
+          {/* <Image src={reactSVG} alt="React logo" width={size}></Image> */}
           <Image src={bootstrapSVG} alt="Bootstrap logo" width={size}></Image>
           <Image src={nextSVG} alt="NextJS logo" width={size}></Image>
           <Image src={tailwindSVG} alt="Tailwind logo" width={size}></Image>
