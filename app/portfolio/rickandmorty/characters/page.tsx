@@ -1,7 +1,7 @@
 "use client"
 import { Suspense } from "react"
 import { getCharacters } from "./services"
-import { Card } from "../../../components/Card/index"
+import  Card  from "../../../components/Card/Card.tsx"
 import styles from "./Characters.module.css"
 async function fetchCharacters() {
   return await getCharacters()
