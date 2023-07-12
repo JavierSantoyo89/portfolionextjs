@@ -5,8 +5,8 @@ import github from "../../../public/Socials/github.svg"
 import twitter from "../../../public/Socials/twitter.svg"
 function Footer() {
   return (
-    <footer className="w-screen h-auto bg-white">
-      <div className="px-4 py-1 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
+    <footer className="w-screen h-auto bg-white  ">
+      <div className="px- py-1 mx-auto overflow-hidden sm:px-6 lg:px-8">
         <div className="flex justify-center mt-8 space-x-6">
           <span className="inline-flex justify-center w-full gap-3 m-auto md:justify-start md:w-auto">
             <Link
@@ -50,8 +50,8 @@ function Footer() {
             </Link>
           </span>
         </div>
-        <p className="mt-8 text-center">
-          <span className="mx-auto mt-2 text-sm text-gray-500">
+        <p className="mt-1 text-center">
+          <span className="mx-auto mt-0 text-sm text-gray-500">
             Copyright © 2023
           </span>
         </p>

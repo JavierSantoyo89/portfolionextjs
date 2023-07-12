@@ -6,10 +6,10 @@ import imgRandom from "../public/imgrandom.jpg"
 //* === Imagen de fondo === *//
 function notFound() {
   return (
-    <div>
+    <>
       <p>not-found the component animal</p>
-      <Image src={imgRandom} alt="Ni idea" />
-    </div>
+      <Image src={imgRandom} alt="Ni idea" className="bg-none" />
+    </>
   )
 }
 
