@@ -1,44 +1,27 @@
 import Image from "next/image"
 import Link from "next/link"
-import React from "react"
 import linkedin from "../../../public/Socials/linkedin.svg"
 import github from "../../../public/Socials/github.svg"
 import twitter from "../../../public/Socials/twitter.svg"
 function Footer() {
   return (
-    <footer className="bg-white">
-      <div className="px-4 py-12 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
-        <nav
-          className="flex flex-wrap justify-center -mx-5 -my-2"
-          aria-label="Footer"
-        >
-          <div className="px-5 py-2">
-            <a href="#" className="text-sm text-gray-500 hover:text-blue-600">
-              Next.js
-            </a>
-          </div>
-
-          <div className="px-5 py-2">
-            <a href="#" className="text-sm text-gray-500 hover:text-blue-600">
-              Partners
-            </a>
-          </div>
-        </nav>
+    <footer className="w-screen h-auto bg-white">
+      <div className="px-4 py-1 mx-auto overflow-hidden max-w-7xl sm:px-6 lg:px-8">
         <div className="flex justify-center mt-8 space-x-6">
           <span className="inline-flex justify-center w-full gap-3 m-auto md:justify-start md:w-auto">
-            <a className="w-6 h-6 transition fill-black hover:text-blue-500">
-              <span className="sr-only">github</span>
-              {/* <ion-icon class="w-5 h-5 md hydrated" name="logo-github" role="img" aria-label="logo github"></ion-icon> */}
-            </a>
-            <a className="w-6 h-6 transition fill-black hover:text-blue-500">
-              <span className="sr-only">twitter</span>
-              {/* <ion-icon class="w-5 h-5 md hydrated" name="logo-twitter" role="img" aria-label="logo twitter"></ion-icon> */}
-            </a>
-            <a className="w-6 h-6 transition fill-black hover:text-blue-500">
-              <span className="sr-only">Instagram</span>
-              {/* <ion-icon class="w-5 h-5 md hydrated" name="logo-instagram" role="img" aria-label="logo instagram"></ion-icon> */}
-            </a>
-
+            <Link
+              href={"https://www.linkedin.com/in/javiersantoyor/"}
+              className="w-6 h-6 transition fill-black hover:text-blue-500"
+            >
+              <span className="sr-only">LinkedIn</span>
+              <Image
+                src={linkedin}
+                alt="LinkedIn logo"
+                className="w-5 h-5 md hydrated"
+                role="img"
+                aria-label="logo linkedin"
+              ></Image>
+            </Link>
             <Link
               href={"https://github.com/JavierSantoyo89"}
               className="w-6 h-6 transition fill-black hover:text-blue-500"
@@ -50,6 +33,19 @@ function Footer() {
                 className="w-5 h-5 md hydrated"
                 role="img"
                 aria-label="logo github"
+              ></Image>
+            </Link>
+            <Link
+              href={"https://twitter.com/FcoSantoyoRios"}
+              className="w-6 h-6 transition fill-black hover:text-blue-500"
+            >
+              <span className="sr-only">Twitter</span>
+              <Image
+                src={twitter}
+                alt="Twitter logo"
+                className="w-5 h-5 md hydrated"
+                role="img"
+                aria-label="logo twitter"
               ></Image>
             </Link>
           </span>
