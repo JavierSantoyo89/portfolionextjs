@@ -24,13 +24,13 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 | ----------- | ----------- | ----------- |
 | Index | Process | Falta CSS |
 | Not found | OK | Imagen, funciones y documentacion |
-| Header | OK | Falta CSS |
-| Footer | OK | OK |
-| About | OK | Falta CSS |
-| Contact | OK | Falta CSS |
-| Portfolio | OK | Falta CSS |
-| ORG | OK | Falta CSS |
-| RickAndMorty | OK | Falta CSS |
+| Header | OK | Links, CSS |
+| Footer | OK | Links, CSS |
+| About | Process | Falta CSS |
+| Contact | Process | Falta CSS |
+| Portfolio | Process | Falta CSS |
+| - RickAndMorty | Process | Falta CSS |
+| ORG | Process | Falta CSS |
 ## Sitos oficiales de imagenes
 
 [Unplash](www.unsplash.com)
