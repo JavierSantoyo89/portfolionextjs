@@ -25,7 +25,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 | Index | Process | Falta CSS |
 | Not found | OK | Imagen, funciones y documentacion |
 | Header | OK | Falta CSS |
-| Footer | OK | Falta CSS |
+| Footer | OK | OK |
 | About | OK | Falta CSS |
 | Contact | OK | Falta CSS |
 | Portfolio | OK | Falta CSS |
