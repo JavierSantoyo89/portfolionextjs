@@ -6,7 +6,7 @@ function Portfolio() {
     <div>
       Aqui va a ir el portafolio!!!
       {/* <!-- component --> */}
-      <div className="h-screen flex bg-gray-900 items-center justify-center">
+      <div className="h-screen flex items-center justify-center">
         <div className="grid grid-cols-12 gap-2 gap-y-4 max-w-6xl">
           {/* <!-- Video 1 --> */}
           <div className="col-span-12 sm:col-span-6 md:col-span-3">
