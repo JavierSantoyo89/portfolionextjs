@@ -1,10 +1,12 @@
+"use client"
 import Link from "next/link"
 import "flowbite"
+import ThemeButton from "./ThemeButton/ThemeButton.jsx"
 
 function Header() {
   return (
     <header>
-      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-gray-800">
+      <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-blue-800">
         <div className="flex flex-wrap justify-center items-center mx-auto max-w-screen-xl">
           <div className="flex items-center lg:order-2">
             <button
@@ -86,6 +88,8 @@ function Header() {
                   Contacto
                 </Link>
               </li>
+<ThemeButton/>
+              
             </ul>
           </div>
         </div>
