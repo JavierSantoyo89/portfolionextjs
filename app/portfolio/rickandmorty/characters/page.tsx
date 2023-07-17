@@ -12,11 +12,11 @@ async function Characters() {
   const characters = await fetchCharacters()
   return (
     <section className={styles.sectionContainer}>
-      <>
+      <div>
         {characters.map((character) => (
           <Card key={character.id} data={character} />
         ))}
-      </>
+      </div>
     </section>
   )
 }

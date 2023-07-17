@@ -3,7 +3,8 @@ import Link from "next/link"
 import linkedin from "../../../public/Socials/linkedin.svg"
 import github from "../../../public/Socials/github.svg"
 import twitter from "../../../public/Socials/twitter.svg"
-function Footer() {
+
+export default function Footer() {
   return (
     <footer className="w-screen h-auto bg-white absolute bottom-0 ">
       <div className="px-1 py-1 mx-auto overflow-hidden sm:px-6 lg:px-8">
@@ -21,37 +22,39 @@ function Footer() {
                 aria-label="logo linkedin"
               ></Image>
             </Link>
-            
+
             <Link
               href={"https://github.com/JavierSantoyo89"}
               className="w-6 h-6 transition fill-black hover:text-blue-500"
-            >  <Image
+            >
+              {" "}
+              <Image
                 src={github}
                 alt="Github logo"
                 className="w-5 h-5 md hydrated"
                 role="img"
                 aria-label="logo github"
-              ></Image></Link>
-             
-             <Link href={"https://twitter.com/FcoSantoyoRios"}
-              className="w-6 h-6 transition fill-black hover:text-blue-500">
+              ></Image>
+            </Link>
+
+            <Link
+              href={"https://twitter.com/FcoSantoyoRios"}
+              className="w-6 h-6 transition fill-black hover:text-blue-500"
+            >
               <Image
                 src={twitter}
                 alt="Twitter logo"
                 className="w-5 h-5 md hydrated"
                 role="img"
                 aria-label="logo twitter"
-              ></Image></Link>
-              </span>
-        </div>
-        <p className="mt-1 text-center">
-          <span className="mx-auto mt-0 text-sm text-gray-500">
-            Copyright © 2023
+              ></Image>
+            </Link>
           </span>
-        </p>
+        </div>
+        <div className="mt-1 text-center">
+          <p className="mx-auto mt-0 text-sm text-gray-500">Copyright © 2023</p>
+        </div>
       </div>
     </footer>
   )
 }
-
-export default Footer

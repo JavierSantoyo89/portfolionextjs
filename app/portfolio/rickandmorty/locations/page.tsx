@@ -8,11 +8,11 @@ async function fetchLocations() {
 async function Locations() {
   const locations = await fetchLocations()
   return (
-    <>
+    <div>
       {locations.map((Locations) => (
         <Card key={Locations.id} data={Locations} />
       ))}
-    </>
+    </div>
   )
 }
 

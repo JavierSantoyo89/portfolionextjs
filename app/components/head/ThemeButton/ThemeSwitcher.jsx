@@ -2,21 +2,20 @@
 import { useState, useEffect } from "react"
 import { useTheme } from "next-themes"
 import "@theme-toggles/react/css/Classic.css"
-import { Classic } from "@theme-toggles/react"
 import { MoonIcon, SunIcon } from "@heroicons/react/24/solid"
 
-function ThemeButton() {
-  const { systemTheme, theme, setTheme } = useTheme()
+const ThemeSwitcher = () =>{
+  const {systemTheme, theme, setTheme} = useTheme()
   const [mounted, setMounted] = useState(false)
 
   useEffect(() => {
-    setMounted(true)
-  }, [])
+        setMounted(true)
+      }, [])
+    
+      const renderThemeChanger = () => {
+        if (!mounted) return null
 
-  const renderThemeChanger = () => {
-    if (!mounted) return null
-
-    const currentTheme = theme === "system" ? systemTheme : theme
+        const currentTheme = theme === "system" ? systemTheme : theme
 
     if (currentTheme === "dark") {
       return (
@@ -36,12 +35,14 @@ function ThemeButton() {
       )
     }
   }
-
-  return (
+  return(
     <div>
       {renderThemeChanger()}
     </div>
   )
 }
 
-export default ThemeButton
+
+
+export default ThemeSwitcher
+

@@ -3,10 +3,9 @@ const nextConfig = {
   images: {
     remotePatterns: [
       {
+        protocol: "https",
         hostname: "rickandmortyapi.com",
-        hostname: "javiersantoyo.dev",
-        hostname: "www.google.com",
-        hostname: "https://picsum.photos/seed/1/40/40",
+        pathname: "/api/character/avatar/**",
       },
     ],
   },

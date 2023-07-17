@@ -4,7 +4,6 @@ import CurAME from "/public/curame.webp"
 function Portfolio() {
   return (
     <div>
-      Aqui va a ir el portafolio!!!
       {/* <!-- component --> */}
       <div className="h-screen flex items-center justify-center">
         <div className="grid grid-cols-12 gap-2 gap-y-4 max-w-6xl">
@@ -39,18 +38,18 @@ function Portfolio() {
 
                 {/* <!-- Description --> */}
                 <div className="flex flex-col">
-                  <a href="#">
+                  <Link href="#">
                     <p className="text-gray-100 text-sm font-semibold">
                       CurAME Mexico A.C.
                     </p>
-                  </a>
-                  <a
+                  </Link>
+                  <Link
                     className="text-gray-400 text-xs mt-2 hover:text-gray-100"
                     href="#"
                   >
                     Web diseñada para la organizacion civil `Atrofia Muscular
                     Espinal en Mexico`
-                  </a>
+                  </Link>
                   <p className="text-gray-400 text-xs mt-1">
                     241K views . 3 years ago
                   </p>
@@ -64,7 +63,7 @@ function Portfolio() {
             <div className="w-full flex flex-col">
               <div className="relative">
                 {/* <!-- Image Video --> */}
-                <Link href="#">
+                <Link href="/portfolio/rickandmorty">
                   <Image
                     src={CurAME}
                     alt="Sitio random"
@@ -81,7 +80,7 @@ function Portfolio() {
 
               <div className="flex flex-row mt-2 gap-2">
                 {/* <!-- Profile Picture --> */}
-                <Link href="#">
+                <Link href="/portfolio/rickandmorty">
                   <Image
                     src={CurAME}
                     alt="Sitio random 2"
@@ -93,7 +92,7 @@ function Portfolio() {
 
                 {/* <!-- Description --> */}
                 <div className="flex flex-col">
-                  <Link href="#">
+                  <Link href="/portfolio/rickandmorty">
                     <p className="text-gray-100 text-sm font-semibold">
                       Learn CSS Box Model in 8 Minutes
                     </p>
@@ -101,9 +100,7 @@ function Portfolio() {
                   <Link
                     className="text-gray-400 text-xs mt-2 hover:text-gray-100"
                     href="#"
-                  >
-                    {" "}
-                    Web Dev Simplified{" "}
+                  >Web Dev Simplified
                   </Link>
                   <p className="text-gray-400 text-xs mt-1">
                     241K views . 3 years ago

@@ -1,7 +1,7 @@
 import type { Metadata } from "next"
 const Page = () => {
   return (
-    <>
+    <main>
       <section>
         <h1>Sobre mi</h1>
         <p>
@@ -54,7 +54,7 @@ const Page = () => {
           <ul>Control de herramientas(inventario).</ul>
         </span>
       </section>
-    </>
+    </main>
   )
 }
 

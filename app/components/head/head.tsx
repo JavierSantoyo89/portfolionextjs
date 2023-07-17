@@ -1,9 +1,9 @@
 "use client"
 import Link from "next/link"
 import "flowbite"
-import ThemeButton from "./ThemeButton/ThemeButton.jsx"
+import ThemeButton from "./ThemeButton/ThemeSwitcher.jsx"
 
-function Header() {
+export default function Head() {
   return (
     <header>
       <nav className="bg-white border-gray-200 px-4 lg:px-6 py-2.5 dark:bg-blue-800">
@@ -13,8 +13,8 @@ function Header() {
               data-collapse-toggle="mobile-menu-2"
               type="button"
               className="inline-flex items-center justify-center p-2 ml-1 text-sm text-gray-500 
-              rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 
-              dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+          rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 
+          dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
               aria-controls="mobile-menu-2"
               aria-expanded="false"
             >
@@ -54,9 +54,9 @@ function Header() {
                 <Link
                   href="/"
                   className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  
-                  hover:bg-blue-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 
-                  lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 
-                  dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              hover:bg-blue-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 
+              lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 
+              dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Home
                 </Link>
@@ -65,9 +65,9 @@ function Header() {
                 <Link
                   href="/portfolio"
                   className="block py-2 pr-4 pl-3 text-gray-700 border-b border-gray-100  
-                  hover:bg-blue-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 
-                  lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 
-                  dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
+              hover:bg-blue-700 lg:hover:bg-transparent lg:border-0 lg:hover:text-blue-700 
+              lg:p-0 dark:text-gray-400 lg:dark:hover:text-white dark:hover:bg-gray-700 
+              dark:hover:text-white lg:dark:hover:bg-transparent dark:border-gray-700"
                 >
                   Portafolio
                 </Link>
@@ -88,8 +88,9 @@ function Header() {
                   Contacto
                 </Link>
               </li>
-<ThemeButton/>
-              
+              <li>
+                <ThemeButton />
+              </li>
             </ul>
           </div>
         </div>
@@ -97,4 +98,3 @@ function Header() {
     </header>
   )
 }
-export default Header

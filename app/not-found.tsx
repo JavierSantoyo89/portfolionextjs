@@ -7,7 +7,7 @@ import space404 from "../public/Error404.png" //* === Imagen de fondo === *//
 {
   /* <Image src={space404} alt="background image" fill /> */
 }
-function notFound() {
+function NotFound() {
   //* --------- Funcion para regresar un paso en el historial de navegacion mediante el "onClick" --------- */
   function back() {
     window.history.back()
@@ -20,4 +20,4 @@ function notFound() {
   )
 }
 
-export default notFound
+export default NotFound

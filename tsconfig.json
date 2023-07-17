@@ -14,7 +14,6 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "incremental": true,
-    "allowImportingTsExtensions": true,
     "plugins": [
       {
         "name": "next"
@@ -29,7 +28,7 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/components/Header/Header.tsx"
-, "public/FrontEnd/index.js"  ],
+    "app/components/head/ThemeButton/ThemeSwitcher.jsx"
+  ],
   "exclude": ["node_modules"]
 }

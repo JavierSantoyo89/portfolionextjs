@@ -11,25 +11,24 @@ import nextSVG from "../public/FrontEnd/next.svg"
 import tailwindSVG from "../public/FrontEnd/tailwind.svg"
 import wordpressSVG from "../public/FrontEnd/wordpress.svg"
 //* ==================================================================== */
+
 export default function Home() {
   const size = 70
   return (
     <main>
       <h1>Hello world!</h1>
-      {/* <h1>Desarrollador web</h1> */}
       <h2>Javier Santoyo</h2>
       <section className="cardHome">
         <p className="glass">
           Desarrrollo sitios web enfocados tanto al cliente final como empresas,
           usando tecnologias que varian entre el FrontEnd(Lo visual para el
           usuario), HTML5, CSS, Javascript como el Backend(Modelo de negocio y
-          funcionalidad)
-
-          Soy desarrollador web Fullstack especializado en Backend y funciones administrativas enfocado en el proyecto y/o cliente. 
-
-En mi portafolio encontraras algunos proyectos personales y otros en producción desde aplicaciones básicas como complejas enfocadas a un rubro en específico.
-Si quieres saber mas de mi entra al apartado “sobre mi” y si deseas contáctame 
-
+          funcionalidad) Soy desarrollador web Fullstack especializado en
+          Backend y funciones administrativas enfocado en el proyecto y/o
+          cliente. En mi portafolio encontraras algunos proyectos personales y
+          otros en producción desde aplicaciones básicas como complejas
+          enfocadas a un rubro en específico. Si quieres saber mas de mi entra
+          al apartado “sobre mi” y si deseas contáctame
         </p>
       </section>
       <section className="glass">
