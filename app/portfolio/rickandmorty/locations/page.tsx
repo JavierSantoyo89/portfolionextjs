@@ -1,6 +1,6 @@
 /* eslint-disable @next/next/no-async-client-component */
 
-import Card from "../../../components/Card/Card.tsx"
+import Card from "../../../components/Card/Card"
 import { getLocations } from "./services"
 async function fetchLocations() {
   return await getLocations()
