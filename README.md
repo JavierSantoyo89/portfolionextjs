@@ -37,3 +37,5 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 
 Como implementar dark mode en next 13(app) con tailwind(Ingles)
 [Youtube](https://www.youtube.com/watch?v=optD7ns4ISQ&t=1379s)
+
+Quieres tener la forma de recibir corres desde tu sitio web usa: [Formsubmit](https://formsubmit.co/)
