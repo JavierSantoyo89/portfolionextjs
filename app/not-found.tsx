@@ -14,7 +14,7 @@ function NotFound() {
   }
   //* ============================================================================== *//
   return (
-    <div className="w-full h-full" onClick={back}>
+    <div className="w-full h-full fixed" onClick={back}>
       <Image src={space404} alt="background image" fill />
     </div>
   )
