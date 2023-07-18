@@ -3,7 +3,7 @@ const page = () => {
     <main className="flex items-center justify-center p-12 flex-col align-middle text-center">
       <div className="mx-auto w-full max-w-[550px]">
         <form
-          action="https://formsubmit.co/javier.santoyo@yahoo.com"
+          action="https://formsubmit.co/25db5d09266f49d6dc26e597beb9c819"
           method="POST"
         >
           <div className="mb-5">
