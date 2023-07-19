@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Link from "next/link"
 import "./globals.css"
 //* ========================= importando logos ========================= */
 import javaScriptSVG from "../public/FrontEnd/javascript.svg"
@@ -12,12 +13,11 @@ import tailwindSVG from "../public/FrontEnd/tailwind.svg"
 import wordpressSVG from "../public/FrontEnd/wordpress.svg"
 //* ==================================================================== */
 
+
 export default function Home() {
   const size = 70
   return (
     <main>
-      <h1>Hello world!</h1>
-      <h2>Javier Santoyo</h2>
       <section className="cardHome">
         <p className="glass">
           Desarrrollo sitios web enfocados tanto al cliente final como empresas,
@@ -30,6 +30,23 @@ export default function Home() {
           enfocadas a un rubro en específico. Si quieres saber mas de mi entra
           al apartado “sobre mi” y si deseas contáctame
         </p>
+      </section>
+      <section>
+        <Link href="https://github.com/JavierSantoyo89">
+          <Image
+            src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
+            alt="Ni idea"
+            height="180"
+            width="180"
+          ></Image>
+          <Image
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavierSantoyo89&theme=buefy&layout=compact"
+            alt="Ni idea"
+            height="180"
+            width="180"
+          ></Image>
+          
+        </Link>
       </section>
       <section className="glass">
         <p>

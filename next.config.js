@@ -7,7 +7,13 @@ const nextConfig = {
         hostname: "rickandmortyapi.com",
         pathname: "/api/character/avatar/**",
       },
+      {
+        protocol: "https",
+        hostname: "github-readme-stats.vercel.app",
+        pathname: "/**",
+      },
     ],
+    dangerouslyAllowSVG: true,
   },
 }
 
