@@ -42,3 +42,6 @@ Quieres aprender a implementar el correo de tu sitio sin tener un backend:
 [youtube](https://www.youtube.com/watch?v=mmo9PR_9m84)
 
 Quieres tener la forma de recibir corres desde tu sitio web usa: [Formsubmit](https://formsubmit.co/)
+
+## Backlog/TODO
+> Hacer un toggle que cambie el idioma a ingles.
