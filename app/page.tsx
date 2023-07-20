@@ -13,7 +13,6 @@ import tailwindSVG from "../public/FrontEnd/tailwind.svg"
 import wordpressSVG from "../public/FrontEnd/wordpress.svg"
 //* ==================================================================== */
 
-
 export default function Home() {
   const size = 70
   return (
@@ -32,7 +31,7 @@ export default function Home() {
         </p>
       </section>
       <section>
-        <Link href="https://github.com/JavierSantoyo89">
+        <Link href="#">
           <Image
             src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
             alt="Ni idea"
@@ -45,7 +44,6 @@ export default function Home() {
             height="180"
             width="180"
           ></Image>
-          
         </Link>
       </section>
       <section className="glass">

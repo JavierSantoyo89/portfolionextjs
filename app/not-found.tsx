@@ -1,5 +1,4 @@
 "use client"
-
 //* =========== Cuando no encuentra el sitio solicitado se abre "Not Found" ======== *//
 import Image from "next/image"
 import space404 from "../public/Error404.png" //* === Imagen de fondo === *//
@@ -14,9 +13,17 @@ function NotFound() {
   }
   //* ============================================================================== *//
   return (
-    <div className="w-full h-full fixed" onClick={back}>
-      <Image src={space404} alt="background image" fill />
-    </div>
+    <body
+      onClick={back}
+      className=" flex flex-row bg-black bbg-cover bg-no-repeat bg-center "
+    >
+      <Image  
+      src={space404} 
+      alt="background image error 404"
+      className="relative"
+      sizes="(max-width: 768px) 100vw"
+      quality={20} />
+    </body>
   )
 }
 
