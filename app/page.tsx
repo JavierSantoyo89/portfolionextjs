@@ -16,8 +16,8 @@ import wordpressSVG from "../public/FrontEnd/wordpress.svg"
 export default function Home() {
   const size = 70
   return (
-    <main className=" felx flex-col w-screen h-screen overflow-y-scroll bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
-      <section className="cardHome">
+    <main className=" flex flex-col w-screen h-screen overflow-y-scroll bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
+      <section className="">
         <p className="cardGlass">
           Desarrrollo sitios web enfocados tanto al cliente final como empresas,
           usando tecnologias que varian entre el FrontEnd(Lo visual para el
@@ -30,7 +30,7 @@ export default function Home() {
           al apartado “sobre mi” y si deseas contáctame
         </p>
       </section>
-      <section>
+      <section className="cardGlass">
         <Link href="#">
           <Image
             src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
@@ -46,12 +46,12 @@ export default function Home() {
           ></Image>
         </Link>
       </section>
-      <section className="glass">
+      <section className="cardGlass">
         <p>
           En esta seccion muestro algunas tecnologias con las que tengo
           experiencia.
         </p>
-        <div className="frontEndContent flex flex-row-row">
+        <div className="frontEndContent flex flex-row-row ">
           FrontEnd
           <Image src={htmlSVG} alt="HTML logo" width={size}></Image>
           <Image src={css3SVG} alt="CSS3 logo" width={size}></Image>

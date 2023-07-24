@@ -1,8 +1,10 @@
 const page = () => {
   return (
-    <main className="flex items-center justify-center p-12 flex-col align-middle text-center">
-      <div className="mx-auto w-full max-w-[550px]">
+    <main className=" relative flex flex-col w-screen h-screen  bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
+      <div className=" absolute cardGlass w-1/3 ">
+        {/* w-full max-w-[550px]  */}
         <form
+          className=" text-center p-4 h-fit"
           action="https://formsubmit.co/25db5d09266f49d6dc26e597beb9c819"
           method="POST"
         >
