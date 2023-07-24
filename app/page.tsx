@@ -16,9 +16,9 @@ import wordpressSVG from "../public/FrontEnd/wordpress.svg"
 export default function Home() {
   const size = 70
   return (
-    <main>
+    <main className="flex w-screen h-screen overflow-y-scroll bg-center bg-no-repeat bg-auto justify-center items-center bg-dia ">
       <section className="cardHome">
-        <p className="glass">
+        <p className="cardGlass">
           Desarrrollo sitios web enfocados tanto al cliente final como empresas,
           usando tecnologias que varian entre el FrontEnd(Lo visual para el
           usuario), HTML5, CSS, Javascript como el Backend(Modelo de negocio y
