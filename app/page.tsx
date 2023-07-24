@@ -16,7 +16,7 @@ import wordpressSVG from "../public/FrontEnd/wordpress.svg"
 export default function Home() {
   const size = 70
   return (
-    <main className="flex w-screen h-screen overflow-y-scroll bg-center bg-no-repeat bg-auto justify-center items-center bg-dia ">
+    <main className=" felx flex-col w-screen h-screen overflow-y-scroll bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
       <section className="cardHome">
         <p className="cardGlass">
           Desarrrollo sitios web enfocados tanto al cliente final como empresas,
@@ -51,7 +51,7 @@ export default function Home() {
           En esta seccion muestro algunas tecnologias con las que tengo
           experiencia.
         </p>
-        <div className="frontEndContent">
+        <div className="frontEndContent flex flex-row-row">
           FrontEnd
           <Image src={htmlSVG} alt="HTML logo" width={size}></Image>
           <Image src={css3SVG} alt="CSS3 logo" width={size}></Image>
