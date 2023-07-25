@@ -1,4 +1,4 @@
-import os, { machine, type } from "node:os"
+import os from "node:os"
 // console.log("Informacion del equipo")
 // console.log("----------------------")
 // console.log("Nombre del sistema operativo", os.platform())
