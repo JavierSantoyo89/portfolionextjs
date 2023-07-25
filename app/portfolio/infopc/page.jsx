@@ -38,6 +38,7 @@ function page() {
   // console.log("Tipo de sistema operativo es: : ", tipoOS)
   // console.log("Your IP: ", ethernetData["Ethernet"][3]["address"])
   // console.log("Mac address: ", ethernetData["Ethernet"][0]["mac"])
+  //* =================================================================================== *//
 
   return (
     <main className=" flex flex-col w-screen h-screen overflow-y-scroll bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
@@ -63,7 +64,7 @@ function page() {
         ninguna manera se almacena informacion personal
       </section>
 
-      {/* {* ---------- Si quieres correrlo con array's } ---------- */}
+        {/* //---------- Si quieres correrlo con array's  ---------- *}
       {/* <p>Sistema operativo: {arrayInfo[0]}</p>
       <p>Version: {arrayInfo[1]}</p>
       <p>Arquitectura: {arrayInfo[5]}</p>
@@ -72,8 +73,8 @@ function page() {
         {arrayInfo[4]} (dd/hh/mm)
       </p>
       <p>Memoria libre: {arrayInfo[6]}mb o {porcentFree}% aprox.</p>
-      <p>Total de memoria: {arrayInfo[7]} gb disponible</p> */}
-      {/*  ----------  ----------  ----------  ----------  ----------  */}
+  <p>Total de memoria: {arrayInfo[7]} gb disponible</p>  */}
+
     </main>
   )
 }
