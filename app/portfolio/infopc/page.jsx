@@ -1,3 +1,4 @@
+import os from "node:os"
 // console.log("Informacion del equipo")
 // console.log("----------------------")
 // console.log("Nombre del sistema operativo", os.platform())
@@ -18,11 +19,11 @@ function page() {
   const ethernetData = os.networkInterfaces()
 
   //* VAriables para sacar la dia, hora y minuto del sistema (Ctrl+Alt+Delete view 'Process')
-  let horasGlobales = Math.trunc(upTime / 3600)
-  let minutosglobales = Math.trunc(upTime / 60)
-  let dias = Math.trunc(horasGlobales / 24)
-  let horas = Math.trunc(horasGlobales - dias * 24)
-  let minutos = Math.floor(minutosglobales % 60)
+  const horasGlobales = Math.trunc(upTime / 3600)
+  const minutosglobales = Math.trunc(upTime / 60)
+  const dias = Math.trunc(horasGlobales / 24)
+  const horas = Math.trunc(horasGlobales - dias * 24)
+  const minutos = Math.floor(minutosglobales % 60)
   //* =================================================================================== //
   // const arrayInfo = [SO, vSO, dias, horas, minutos, Arch, memFree, memTot] // Array de practica
 
