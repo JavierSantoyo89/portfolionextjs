@@ -29,6 +29,6 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "app/components/head/ThemeButton/ThemeSwitcher.jsx"
-  ],
+, "app/portfolio/infopc/services.ts"  ],
   "exclude": ["node_modules"]
 }
