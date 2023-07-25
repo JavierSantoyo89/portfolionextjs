@@ -1,4 +1,13 @@
-import os from "node:os"
+import {
+  platform,
+  release,
+  arch,
+  freemem,
+  totalmem,
+  uptime,
+  type,
+  networkInterfaces,
+} from "node:os"
 // console.log("Informacion del equipo")
 // console.log("----------------------")
 // console.log("Nombre del sistema operativo", os.platform())
@@ -8,15 +17,15 @@ import os from "node:os"
 // console.log("Memoria total", os.totalmem() / 1024 / 1024)
 
 function page() {
-  const SO = os.platform()
-  const vSO = os.release()
-  const Arch = os.arch()
-  const memFree = Math.trunc(os.freemem() / 1024 / 1024).toFixed(0)
-  const memTot = Math.round(os.totalmem() / 1024 / 1024 / 1024).toFixed(2)
+  const SO = platform()
+  const vSO = release()
+  const Arch = arch()
+  const memFree = Math.trunc(freemem() / 1024 / 1024).toFixed(0)
+  const memTot = Math.round(totalmem() / 1024 / 1024 / 1024).toFixed(2)
   const porcentFree = Math.trunc((memFree / 1024 / memTot) * 100)
-  const upTime = os.uptime()
-  const tipoOS = os.type()
-  const ethernetData = os.networkInterfaces()
+  const upTime = uptime()
+  const tipoOS = type()
+  const ethernetData = networkInterfaces()
 
   //* VAriables para sacar la dia, hora y minuto del sistema (Ctrl+Alt+Delete view 'Process')
   const horasGlobales = Math.trunc(upTime / 3600)
