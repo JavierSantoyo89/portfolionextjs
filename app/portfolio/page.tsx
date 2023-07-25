@@ -100,7 +100,8 @@ function Portfolio() {
                   <Link
                     className="text-gray-400 text-xs mt-2 hover:text-gray-100"
                     href="#"
-                  >Web Dev Simplified
+                  >
+                    Web Dev Simplified
                   </Link>
                   <p className="text-gray-400 text-xs mt-1">
                     241K views . 3 years ago
@@ -115,7 +116,7 @@ function Portfolio() {
             <div className="w-full flex flex-col">
               <div className="relative">
                 {/* <!-- Image Video --> */}
-                <Link href="#">
+                <Link href="/portfolio/infopc">
                   <Image
                     src={CurAME}
                     alt="Sitio random3"
@@ -132,7 +133,7 @@ function Portfolio() {
 
               <div className="flex flex-row mt-2 gap-2">
                 {/* <!-- Profile Picture --> */}
-                <Link href="#">
+                <Link href="/portfolio/infopc">
                   <Image
                     src={CurAME}
                     alt="Sitio random 3"
@@ -146,7 +147,7 @@ function Portfolio() {
                 <div className="flex flex-col">
                   <Link href="#">
                     <p className="text-gray-100 text-sm font-semibold">
-                      Learn CSS Box Model in 8 Minutes
+                      Sitio donde veras estadisticas de tu equipo.
                     </p>
                   </Link>
                   <Link
