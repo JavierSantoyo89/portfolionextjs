@@ -34,6 +34,7 @@ This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-opti
 ## Sitos oficiales de imagenes
 
 [Unplash](www.unsplash.com)
+[Tabler-icons](https://tabler-icons.io/)
 
 Como implementar dark mode en next 13(app) con tailwind(Ingles)
 [Youtube](https://www.youtube.com/watch?v=optD7ns4ISQ&t=1379s)

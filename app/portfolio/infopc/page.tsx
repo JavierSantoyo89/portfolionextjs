@@ -40,11 +40,9 @@ function page() {
   const minutos = Math.floor(minutosglobales % 60)
   //* =================================================================================== //
   // const arrayInfo = [SO, vSO, dias, horas, minutos, Arch, memFree, memTot] // Array de practica
-  
 
   // let MAC:string = ethernetData["Ethernet"]?[0]?["mac"]
   // const IP:string = ethernetData["Ethernet"]?[3]?["address"]
-  
 
   //* --------------------- console.log para revisar en la terminal -------------------- *//
   // console.log("El arrey nuevo es: ", Array)
@@ -72,7 +70,7 @@ function page() {
 
   return (
     <main className=" flex flex-col w-screen h-screen overflow-y-scroll bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
-      <h1>Estadisticas de tu equipo</h1>
+      <h1>Estadisticas del server</h1>
       <section>
         <p>Sistema operativo: {SO}</p>
         <p>Tipo de sistema operativo: {tipoOS}</p>
