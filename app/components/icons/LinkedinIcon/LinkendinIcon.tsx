@@ -2,8 +2,7 @@ interface Props {
   width?: number
   height?: number
 }
-
-export const LinkedinIcon = ({ width = 40, height = 40 }: Props) => {
+function LinkedinIcon({ width = 40, height = 40 }: Props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -16,3 +15,5 @@ export const LinkedinIcon = ({ width = 40, height = 40 }: Props) => {
     </svg>
   )
 }
+
+export default LinkedinIcon

@@ -1,4 +1,4 @@
-import React from "react"
+
 interface Props {
   widthSkillIcon?: number
   heightSkillIcon?: number

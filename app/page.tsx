@@ -21,8 +21,8 @@ export default function Home() {
   const size = 70
   let sizeStadistics = 400
   return (
-    <main className="     flex flex-col p-5 w-screen h-screen overflow-y-scroll bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
-      <section className=" animate-ping animate-once animate-ease-in animate-reverse animate-fill-forwards ">
+    <main className="     flex flex-col p-5 w-screen h-screen bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
+      <section className="  ">
         <p className=" cardGlass">
           Desarrrollo sitios web enfocados tanto al cliente final como empresas,
           usando tecnologias que varian entre el FrontEnd(Lo visual para el
@@ -35,9 +35,10 @@ export default function Home() {
           al apartado “sobre mi” y si deseas contáctame
         </p>
       </section>
-      <section className="cardGlass p-5 m-5">
+      <section className="">
+      <p>Estadisticas en Github</p>
         <Image
-          className="m-2"
+          className=""
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavierSantoyo89&theme=buefy&layout=compact"
           alt="Ni idea"
           height={sizeStadistics}
@@ -45,7 +46,7 @@ export default function Home() {
         ></Image>
 
         <Image
-          className="m-2"
+          className=""
           src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
           alt="Ni idea"
           height={sizeStadistics}
@@ -70,8 +71,9 @@ export default function Home() {
           <PhotoShopIcon widthSkillIcon={60} heightSkillIcon={60} />
           <Illustrator widthSkillIcon={60} heightSkillIcon={60} />
         </section>
-        <section className="flex flex-col">Administrativas
-        <TrelloIcon widthSkillIcon={60} heightSkillIcon={60} />
+        <section className="flex flex-col">
+          Administrativas
+          <TrelloIcon widthSkillIcon={60} heightSkillIcon={60} />
         </section>
       </div>
     </main>

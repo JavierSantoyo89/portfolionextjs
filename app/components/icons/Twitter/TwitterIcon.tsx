@@ -3,7 +3,7 @@ interface Props {
   height?: number
 }
 
-function Twitter({ width = 40, height = 40 }: Props) {
+function TwitterIcon({ width = 40, height = 40 }: Props) {
   return (
     <svg
       version="1.1"
@@ -23,4 +23,4 @@ function Twitter({ width = 40, height = 40 }: Props) {
   )
 }
 
-export default Twitter
+export default TwitterIcon

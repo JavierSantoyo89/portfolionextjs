@@ -7,7 +7,7 @@ export { default as Css3 } from './icons/Css3/Css3';
 export { default as GithubIcon } from './icons/GithubIcon/GithubIcon';
 export { default as Illustrator } from './icons/Illustrator/Illustrator';
 export { default as JavaScriptIcon } from './icons/JavaScriptIcon/JavaScriptIcon';
-export * from './icons/LinkedinIcon/LinkendinIcon';
+export { default as LinkendinIcon } from './icons/LinkedinIcon/LinkendinIcon';
 export { default as NextIcon } from './icons/NextIcon/NextIcon';
 export { default as PhotoShopIcon } from './icons/PhotoShopIcon/PhotoShopIcon';
 export { default as TailwindIcon } from './icons/TailwindIcon/TailwindIcon';
