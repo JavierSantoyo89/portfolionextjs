@@ -3,7 +3,7 @@ interface Props {
   height?: number
 }
 
-function GithubIcon({ width = 40, height = 40 }: Props) {
+function githubIcon({ width = 40, height = 40 }: Props) {
   return (
     <svg
       xmlns="http://www.w3.org/2000/svg"
@@ -21,4 +21,4 @@ function GithubIcon({ width = 40, height = 40 }: Props) {
   )
 }
 
-export default GithubIcon
+export default githubIcon
