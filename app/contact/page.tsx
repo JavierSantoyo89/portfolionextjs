@@ -1,6 +1,7 @@
 const page = () => {
   return (
     <main className=" relative flex flex-col w-screen h-screen  bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
+      
       <div className=" absolute cardGlass w-1/3 ">
         {/* w-full max-w-[550px]  */}
         <form
