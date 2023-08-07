@@ -15,3 +15,4 @@ export { default as TrelloIcon } from './icons/TrelloIcon/TrelloIcon';
 export { default as TwitterIcon } from './icons/Twitter/TwitterIcon';
 export { default as WordPressIcon } from './icons/WordPress/WordPressIcon';
 export { default as HtmlIcon } from './icons/htmlIcon/HtmlIcon';
+export * from './index';
