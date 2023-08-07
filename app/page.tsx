@@ -12,6 +12,7 @@ import {
   TrelloIcon,
   Illustrator,
 } from "./components"
+import Statistics from "./components/statistics/Statistics"
 
 export default function Home() {
   let sizeStadistics = 400
@@ -37,24 +38,7 @@ export default function Home() {
           </span>
         </section>
         <div className="flex flex-row">
-          <section className="">
-            <p>Estadisticas en Github</p>
-            <Image
-              className=""
-              src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavierSantoyo89&theme=buefy&layout=compact"
-              alt="Ni idea"
-              height={sizeStadistics}
-              width={sizeStadistics}
-            ></Image>
-            
-        <Image
-          className=""
-          src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
-          alt="Ni idea"
-          height={sizeStadistics}
-          width={sizeStadistics}
-        ></Image> 
-          </section>
+          <Statistics />
           <section className="cardGlass flex flex-col">
             {/*Skills contentr*/}
             <h2>Skills tech.</h2>
