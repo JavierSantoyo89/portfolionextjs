@@ -19,7 +19,7 @@ export default function Footer() {
             href={"https://github.com/JavierSantoyo89"}
             className="w-6 h-6 transition fill-black hover:text-blue-500"
           >
-            <GithubIcon width={30} height={30} />
+            <GithubIcon width={28} height={25} />
           </Link>
 
           <Link
