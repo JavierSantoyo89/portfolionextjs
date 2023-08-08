@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { LinkendinIcon, TwitterIcon } from "../index"
+import { LinkendinIcon, GithubIcon, TwitterIcon } from "../index"
 
 export default function Footer() {
   return (
@@ -15,12 +15,12 @@ export default function Footer() {
             <LinkendinIcon width={30} height={30} />
           </Link>
 
-          {/* <Link
+          <Link
             href={"https://github.com/JavierSantoyo89"}
             className="w-6 h-6 transition fill-black hover:text-blue-500"
           >
-            
-          </Link>  */}
+            <GithubIcon width={30} height={30} />
+          </Link>
 
           <Link
             href={"https://twitter.com/FcoSantoyoRios"}

@@ -4,6 +4,7 @@ export { default as error } from './error';
 export { default as head } from './head/head';
 export { default as BootstrapIcon } from './icons/Bootstrap/BootstrapIcon';
 export { default as Css3 } from './icons/Css3/Css3';
+export { default as GithubIcon } from './icons/GithubIcon/GithubIcon';
 export { default as Illustrator } from './icons/Illustrator/Illustrator';
 export { default as JavaScriptIcon } from './icons/JavaScriptIcon/JavaScriptIcon';
 export { default as LinkendinIcon } from './icons/LinkedinIcon/LinkendinIcon';
