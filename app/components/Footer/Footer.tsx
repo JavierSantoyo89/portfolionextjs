@@ -1,5 +1,5 @@
 import Link from "next/link"
-import { GithubIcon, LinkendinIcon, TwitterIcon } from "../index"
+import { LinkendinIcon, TwitterIcon } from "../index"
 
 export default function Footer() {
   return (
