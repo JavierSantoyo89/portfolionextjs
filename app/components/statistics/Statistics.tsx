@@ -1,29 +1,35 @@
 import Image from "next/image"
+import "../../globals.css"
+interface Props {
+  sizeStadistics?: number
+}
 
-function Statistics() {
-    let sizeStadistics = 400
+function Statistics({ sizeStadistics = 400 }: Props) {
   return (
-    <div className="flex flex-row">
-    <section className="">
-      <p>Estadisticas en Github</p>
-      <Image
-        className=""
-        src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavierSantoyo89&theme=buefy&layout=compact"
-        alt="Ni idea"
-        height={sizeStadistics}
-        width={sizeStadistics}
-      ></Image>
-      
-  <Image
-    className=""
-    src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
-    alt="Ni idea"
-    height={sizeStadistics}
-    width={sizeStadistics}
-  ></Image> 
-    </section>
-  
-  </div>
+    <article className="cardGlass flex flex-row p-3  ">
+      <section className="justify-items-center">
+        <p>Estadisticas en Github</p>
+        <div className="flex items-center m-1 justify-center">
+        <Image
+          className="w-fit h-fit  "
+          height={sizeStadistics}
+          width={sizeStadistics}
+          src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavierSantoyo89&theme=buefy&layout=compact"
+          alt="Most used languages"
+        ></Image>
+        </div>
+        
+<div className="flex items-center justify-center ">
+        <Image
+          className="w-fit h-fit"
+          height={sizeStadistics}
+          width={sizeStadistics}
+          src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
+          alt="Stars on Github"
+        ></Image>
+</div>
+      </section>
+    </article>
   )
 }
 
