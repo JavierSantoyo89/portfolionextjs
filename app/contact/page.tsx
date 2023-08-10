@@ -1,8 +1,24 @@
 const page = () => {
   return (
-    <main className=" relative flex flex-col w-screen h-screen  bg-center bg-no-repeat bg-cover justify-center items-center bg-dia dark:bg-night ">
-      
-      <div className=" absolute cardGlass w-1/3 ">
+    <main 
+    className=" flex flex-col w-screen h-[100vh] lg:h-screen 
+     bg-center bg-no-repeat bg-cover justify-center 
+     items-center bg-dia dark:bg-night ">
+{/*       
+      className=" MAIN sm:max-w-max sm:h-screen 
+     md:max-w-max md:h-screen 
+     lg:max-w-max lg:h-screen 
+     xl:max-w-max xl:h-screen
+     2xl:max-w-max 2xl:h-screen
+     bg-bottom bg-black p-3 bg-no-repeat bg-cover
+     bg-dia dark:bg-night box-content "
+     */}
+
+
+
+
+
+      <div className=" absolute cardGlass w-2/3 lg:w-1/3 ">
         {/* w-full max-w-[550px]  */}
         <form
           className=" text-center p-4 h-fit"

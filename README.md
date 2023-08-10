@@ -47,3 +47,11 @@ Quieres tener la forma de recibir corres desde tu sitio web usa: [Formsubmit](ht
 
 ## Backlog/TODO
 > Hacer un toggle que cambie el idioma a ingles.
+
+## Responsive size
+
+| Site | Drive | Size | Status |
+| ----------- | ----------- | ----------- | ----------- |
+| Contacto | iPhone 14 Pro Max |430x932 | OK |
+| Contacto | iPad | 768x1024 | OK |
+| Contacto | Macbook Pro |911x1440 | OK |

@@ -1,9 +1,7 @@
 "use client"
 import Link from "next/link"
 import "flowbite"
-import LanguageSwitcher from "./LanguageButton/LanguageSwitcher"
 import ThemeSwitcher from "./ThemeButton/ThemeSwitcher"
-
 
 export default function Head() {
   return (
