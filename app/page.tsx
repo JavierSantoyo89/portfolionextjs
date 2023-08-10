@@ -5,7 +5,14 @@ import Skills from "./components/Skills/Skills"
 
 export default function Home() {
   return (
-    <main className="max-w-max h-screen bg-center p-3 bg-no-repeat bg-cover bg-dia dark:bg-night box-content ">
+    <main
+      className="sm:max-w-max sm:h-screen 
+     md:max-w-max md:h-screen 
+     lg:max-w-max lg:h-screen 
+     xl:max-w-max xl:h-screen
+     2xl:max-w-max 2xl:h-screen
+     bg-bottom bg-black p-3 bg-no-repeat bg-cover bg-dia dark:bg-night box-content "
+    >
       <div className="divPrincipal flex flex-col ">
         {/*Es el contenerdor padre */}
         <section className=" ">
@@ -23,12 +30,12 @@ export default function Home() {
           </p>
         </section>
       </div>
-      
-{/* 
+
+      {/* 
       <div className="  grid lg:grid-cols-2 m-6 items-center justify-items-center text-center sm:grid-cols-1 -bottom-14"> */}
-      
-    <div className="  flex flex-wrap items-center justify-center m-3 gap-3"> 
-    {/* <div className="  grid lg:grid-cols-2 m-1  justify-items-center sm:grid-cols-1">  */}
+
+      <div className="  flex flex-wrap items-center justify-center m-3 gap-3">
+        {/* <div className="  grid lg:grid-cols-2 m-1  justify-items-center sm:grid-cols-1">  */}
 
         {/*contenedor estadistica y skills*/}
 
@@ -36,8 +43,6 @@ export default function Home() {
 
         <Statistics sizeStadistics={180} />
       </div>
-
-      
     </main>
   )
 }

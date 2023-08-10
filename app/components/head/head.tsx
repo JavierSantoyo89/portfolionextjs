@@ -1,15 +1,16 @@
 "use client"
 import Link from "next/link"
 import "flowbite"
-import ThemeButton from "./ThemeButton/ThemeSwitcher.jsx"
-import Image from "next/image.js"
+import LanguageSwitcher from "./LanguageButton/LanguageSwitcher"
+import ThemeSwitcher from "./ThemeButton/ThemeSwitcher"
+
 
 export default function Head() {
   return (
     <header>
       {/* <!-- component --> */}
       <nav className="bg-white shadow dark:bg-gray-800">
-        <div className="container flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+        <div className="container flex items-center justify-center p-2 mx-auto text-gray-600 capitalize dark:text-gray-300">
           <Link
             href="/"
             className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
@@ -35,9 +36,7 @@ export default function Head() {
             Contacto
           </Link>
 
-          
-
-          <ThemeButton />
+          <ThemeSwitcher />
         </div>
       </nav>
     </header>

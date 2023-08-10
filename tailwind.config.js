@@ -4,6 +4,8 @@ module.exports = {
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
     "./components/**/*.{js,ts,jsx,tsx,mdx}",
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
+    "./src/**/*.{html,js}",
+    "./node_modules/tw-elements/dist/js/**/*.js",
   ],
   darkMode: "class",
   theme: {
@@ -18,6 +20,9 @@ module.exports = {
       },
     },
   },
-  plugins: [require("flowbite/plugin"),
-           require('tailwindcss-animated')]
+  plugins: [
+    require("flowbite/plugin"),
+    require("tw-elements/dist/plugin.cjs"),
+    require("tailwindcss-animated"),
+  ],
 }
