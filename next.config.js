@@ -12,6 +12,7 @@ const nextConfig = {
         hostname: "github-readme-stats.vercel.app",
         pathname: "/**",
       },
+      { hostname: "tecdn.b-cdn.net" },
     ],
     dangerouslyAllowSVG: true,
   },
