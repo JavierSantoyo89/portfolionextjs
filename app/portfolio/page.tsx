@@ -1,12 +1,11 @@
-'use client'
+"use client"
 import Link from "next/link"
 import Image from "next/Image"
 import CurAME from "/public/curame.webp"
 import RickAndMort from "../public/rickAndMortyAPI.jpeg"
-import Mensaje from "../components/toast/Mensaje"
+
 function Portfolio() {
   return (
-    
     <div className="container mx-auto px-5 py-2 lg:px-32 lg:pt-24">
       <div className="-m-1 flex flex-wrap md:-m-2">
         <div className="flex w-1/2 flex-wrap">
@@ -17,15 +16,16 @@ function Portfolio() {
               src={RickAndMort}
               width={150}
               height={150}
-              ></Image>
+            ></Image>
           </div>
           <div className="w-1/2 p-1 md:p-2">
             <Image
               alt="gallery"
               className="block h-full w-full rounded-lg object-cover object-center"
-              src={CurAME}              width={150}
+              src={CurAME}
+              width={150}
               height={150}
-              ></Image>
+            ></Image>
           </div>
           <div className="w-full p-1 md:p-2">
             <Image
@@ -34,7 +34,7 @@ function Portfolio() {
               src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(73).webp"
               width={150}
               height={150}
-              ></Image>
+            ></Image>
           </div>
         </div>
         <div className="flex w-1/2 flex-wrap">
@@ -45,7 +45,7 @@ function Portfolio() {
               src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(74).webp"
               width={150}
               height={150}
-              ></Image>
+            ></Image>
           </div>
           <div className="w-1/2 p-1 md:p-2">
             <Image
@@ -54,7 +54,7 @@ function Portfolio() {
               src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(75).webp"
               width={150}
               height={150}
-              ></Image>
+            ></Image>
           </div>
           <div className="w-1/2 p-1 md:p-2">
             <Image
@@ -63,11 +63,10 @@ function Portfolio() {
               src="https://tecdn.b-cdn.net/img/Photos/Horizontal/Nature/4-col/img%20(77).webp"
               width={150}
               height={150}
-              ></Image>
+            ></Image>
           </div>
         </div>
       </div>
-<Mensaje/>
     </div>
 
     // <div>
