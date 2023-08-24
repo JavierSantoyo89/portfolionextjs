@@ -1,4 +1,4 @@
-"use client"
+
 import Link from "next/link"
 import Image from "next/Image"
 import CurAME from "../public/curame.webp"
