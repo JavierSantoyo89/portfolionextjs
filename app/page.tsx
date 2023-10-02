@@ -11,7 +11,7 @@ export default function Home() {
      lg:max-w-max lg:h-screen 
      xl:max-w-max xl:h-screen
      2xl:max-w-max 2xl:h-screen
-     bg-bottom bg-black p-3 bg-no-repeat bg-cover bg-dia dark:bg-night box-content "
+      bg-black p-3 bg-no-repeat bg-cover bg-fixed bg-center bg-dia dark:bg-night box-content "
     >
       <div className="divPrincipal flex flex-col ">
         {/*Es el contenerdor padre */}

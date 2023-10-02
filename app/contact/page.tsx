@@ -3,7 +3,7 @@ const page = () => {
     <main 
     className=" flex flex-col w-screen h-[100vh] lg:h-screen 
      bg-center bg-no-repeat bg-cover justify-center 
-     items-center bg-dia dark:bg-night ">
+     items-center bg-dia dark:bg-night bg-fixed">
 {/*       
       className=" MAIN sm:max-w-max sm:h-screen 
      md:max-w-max md:h-screen 

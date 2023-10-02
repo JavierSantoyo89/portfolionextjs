@@ -5,10 +5,11 @@ export default function Footer() {
   return (
     //? En el <footer> le asignas el color de la letra y SVG's para light y dark
 
-    <footer className=" bg-neutral-200 dark:bg-neutral-700 
-    flex flex-col justify-center overflow-hidden mx-auto ">
+    <footer 
+    className="fixed inset-x-0 bottom-0 bg-neutral-200 dark:bg-neutral-700 ">
+    {/* // className=" bg-neutral-200 dark:bg-neutral-700 flex flex-col justify-center overflow-hidden mx-auto" */}
  
-        <div className="flex flex-row text-center justify-center gap-2">
+        <div className=" flex flex-row text-center justify-center gap-4 m-0">
           <Link
             href={"https://www.linkedin.com/in/javiersantoyor/"}
             className="w-6 h-6 transition fill-black hover:text-blue-500  "
