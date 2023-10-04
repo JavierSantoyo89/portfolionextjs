@@ -1,7 +1,8 @@
-import "./globals.css"
+import "./globals.css";
 
-import Statistics from "./components/statistics/Statistics"
-import Skills from "./components/Skills/Skills"
+import Statistics from "./components/statistics/Statistics";
+import Skills from "./components/Skills/Skills";
+import { SoftSkills } from "./components";
 
 export default function Home() {
   return (
@@ -30,18 +31,17 @@ export default function Home() {
         </p>
       </div>
 
-      
       {/* <div className="  grid lg:grid-cols-2 m-6 items-center justify-items-center text-center sm:grid-cols-1 -bottom-14"> */}
 
       {/* <div className=" SKILLS flex flex-wrap justify-center  max-w-max md:bottom-16 m-3 gap-3"> */}
-        <div className="  grid lg:grid-cols-2 m-1  justify-items-center sm:grid-cols-1"> 
-
+      <div className="  grid lg:grid-cols-2 m-1  justify-items-center sm:grid-cols-1">
         {/*contenedor estadistica y skills*/}
 
         <Skills />
+        <SoftSkills />
 
-        <Statistics sizeStadistics={200} />
+        <Statistics sizeStadistics={100} />
       </div>
     </main>
-  )
+  );
 }

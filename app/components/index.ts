@@ -1,6 +1,7 @@
 export { default as Card } from './Card/Card';
 export { default as Footer } from './Footer/Footer';
 export { default as Skills } from './Skills/Skills';
+export { default as SoftSkills } from './Skills/SoftSkills';
 export { default as error } from './error';
 export { default as head } from './head/head';
 export { default as BootstrapIcon } from './icons/Bootstrap/BootstrapIcon';
