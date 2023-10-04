@@ -14,7 +14,7 @@
     "autoprefixer": "10.4.16",
     "boxicons": "^2.1.4",
     "flowbite": "^1.8.1",
-    "flowbite-react": "^0.6.3",
+    "flowbite-react": "^0.6.4",
     "next": "13.5.4",
     "next-themes": "^0.2.1",
     "postcss": "8.4.31",
