@@ -38,7 +38,7 @@ function Portfolio() {
   const [active, setActive] = useState(0);
   const handleToggle = (index: number) => setActive(index);
   return (
-    <main className=" grid place-items-center ">
+    <main className="grid place-items-center ">
       <section>
         {cards.map((card, index) => {
           const isActive = active === index ? "active" : "";

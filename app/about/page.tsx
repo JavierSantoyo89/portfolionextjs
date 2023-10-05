@@ -1,8 +1,8 @@
 import type { Metadata } from "next"
 const Page = () => {
   return (
-    <main>
-      <section>
+    <main className="tailwindcss-animated absolute top-1/2 left-1/2 -translate-y-2/4 -translate-x-2/4">
+      <section className="cardGlass animate-fade-down  gap-2 p-3">
         <h1>Sobre mi</h1>
         <p>
           Soy desarrollador web fullstack, especializado en backend al igual en
@@ -10,25 +10,28 @@ const Page = () => {
           busca desarrollarse de forma remota.
         </p>
       </section>
-      <section>
+      <div className="grid grid-row-2 grid-flow-col gap-5 p-6 ">
+      <section className="cardGlass p-8 animate-fade-right">
+        <ul>
         <h2>Academico</h2>
         <span>
-          <h3>Software testing(Manual)</h3>
+        <li><h3>Software testing(Manual)</h3></li>
           <p>Universidad Tecnologica Nacional de Buenos Aires</p>
           <p>Octubre 2022 (Certificado)</p>
         </span>
         <span>
-          <h3>Bootcamp en desarrollo web Full Stack</h3>
+        <li><h3>Bootcamp en desarrollo web Full Stack</h3></li>
           <p>Digital House</p>
           <p>Octubre 2021 - Abril 2022 (Certificado)</p>
         </span>
         <span>
-          <h3>LTI: Licenciado en Tecnologias de Informacion</h3>
+        <li><h3>LTI: Licenciado en Tecnologias de Informacion</h3></li>
           <p>Universidad Autonoma de Nuevo Leon</p>
           <p>Junio 2008 - Diciembre 2013 (Titulado)</p>
         </span>
+        </ul>
       </section>
-      <section>
+      <section className="cardGlass p-3 animate-fade-left">
         <h2>Laboral</h2>
         <span>
           <h3>CURAME ac Mexico</h3>
@@ -54,6 +57,7 @@ const Page = () => {
           <ul>Control de herramientas(inventario).</ul>
         </span>
       </section>
+      </div>
     </main>
   )
 }

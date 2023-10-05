@@ -34,7 +34,7 @@ export default function Home() {
       {/* <div className="  grid lg:grid-cols-2 m-6 items-center justify-items-center text-center sm:grid-cols-1 -bottom-14"> */}
 
       {/* <div className=" SKILLS flex flex-wrap justify-center  max-w-max md:bottom-16 m-3 gap-3"> */}
-      <div className="  grid lg:grid-cols-2 m-1  justify-items-center sm:grid-cols-1">
+      <div className="  grid grid-cols-2 p-5 gap-7">
         {/*contenedor estadistica y skills*/}
 
         <Skills />
