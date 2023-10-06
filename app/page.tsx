@@ -6,7 +6,7 @@ export default function Home() {
   return (
     /*Es el contenerdor padre */
     <main
-      className=" MAIN h-full w-full
+      className="h-full w-full
       bg-black p-3 bg-no-repeat bg-cover bg-fixed bg-center bg-dia dark:bg-night box-content "
     >
         {/* Card de bienvenida */}
