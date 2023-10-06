@@ -19,8 +19,8 @@ module.exports = {
     extend: {
       backgroundImage: {
         "404Error": "url('../public/Errors404.png')",
-        dia: "url('../public/bgLight.png')",
-        night: "url('../public/bgDark.png')",
+        dia: "url('../public/bgLight.webp')",
+        night: "url('../public/bgDark.webp')",
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
