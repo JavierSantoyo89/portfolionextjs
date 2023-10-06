@@ -10,6 +10,7 @@ function GithubIcon({ width = 40, height = 40 }: Props) {
       height={height}
       viewBox="0 0 24 24"
       className="fill-current"
+      aria-label="Github"
     >
       <path
         fillRule="evenodd"

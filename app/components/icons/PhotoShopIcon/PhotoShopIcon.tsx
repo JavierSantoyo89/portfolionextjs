@@ -12,6 +12,7 @@ function PhotoShopIcon({ widthSkillIcon = 40, heightSkillIcon = 40 }: Props) {
       viewBox="0 0 24 24"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="Photoshop"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g

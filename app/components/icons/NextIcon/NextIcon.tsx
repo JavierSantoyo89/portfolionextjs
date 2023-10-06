@@ -16,6 +16,7 @@ function NextIcon({ widthSkillIcon = 40, heightSkillIcon = 40 }: Props) {
       fill="none"
       strokeLinecap="round"
       strokeLinejoin="round"
+      aria-label="NextJs"
     >
       <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
       <path d="M9 15v-6l7.745 10.65a9 9 0 1 1 2.255 -1.993"></path>

@@ -1,24 +1,16 @@
 import "./globals.css";
-
 import Statistics from "./components/statistics/Statistics";
-import Skills from "./components/Skills/Skills";
-import { SoftSkills } from "./components";
+import { SoftSkills, Skills } from "./components";
 
 export default function Home() {
   return (
+    /*Es el contenerdor padre */
     <main
-      className=" MAIN sm:max-w-max sm:h-screen 
-     md:max-w-max md:h-screen 
-     lg:max-w-max lg:h-screen 
-     xl:max-w-max xl:h-screen
-     2xl:max-w-max 2xl:h-screen
+      className=" MAIN h-full w-full
       bg-black p-3 bg-no-repeat bg-cover bg-fixed bg-center bg-dia dark:bg-night box-content "
     >
-      <div className="divPrincipal flex flex-col ">
-        {/*Es el contenerdor padre */}
-
         {/* Card de bienvenida */}
-        <p className=" cardGlass p-3">
+        <p className=" cardGlass p-3 ml-3 mr-9" >
           Desarrrollo sitios web enfocados tanto al cliente final como empresas,
           usando tecnologias que varian entre el FrontEnd(Lo visual para el
           usuario), HTML5, CSS, Javascript como el Backend(Modelo de negocio y
@@ -29,19 +21,15 @@ export default function Home() {
           enfocadas a un rubro en específico. Si quieres saber mas de mi entra
           al apartado “sobre mi” y si deseas contáctame
         </p>
-      </div>
-
-      {/* <div className="  grid lg:grid-cols-2 m-6 items-center justify-items-center text-center sm:grid-cols-1 -bottom-14"> */}
-
-      {/* <div className=" SKILLS flex flex-wrap justify-center  max-w-max md:bottom-16 m-3 gap-3"> */}
-      <div className="  grid grid-cols-2 p-5 gap-7">
+      
+      <div className="  grid grid-cols-2 p-4 ml-3 mr-9 gap-5 ">
         {/*contenedor estadistica y skills*/}
-
         <Skills />
         <SoftSkills />
-
-        <Statistics sizeStadistics={100} />
       </div>
+      <h2>Estadisticas en Github</h2>
+        <Statistics  />
+      
     </main>
   );
 }

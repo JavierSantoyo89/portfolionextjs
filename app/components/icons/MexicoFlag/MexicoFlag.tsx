@@ -7,6 +7,7 @@ function MexicoFlag() {
       width="156"
       height="156"
       viewBox="0 0 256 256"
+      aria-label="Mexico flag"
     >
       
         <path

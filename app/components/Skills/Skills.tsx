@@ -13,7 +13,7 @@ import {
 } from "../index"
 function Skills() {
   return (
-    <article className="cardGlass flex flex-col p-3">
+    <article className="cardGlass flex-wrap p-3 sm:text-xs">
       {/*Skills contentr*/}
       <h2>Skills tech.</h2>
       <h3>FrontEnd</h3>
@@ -51,7 +51,7 @@ function Skills() {
       <section className="">BackEnd</section>
 
       <h2>UI/UX</h2>
-      <section className="flex flex-row ">
+      <section className="flex flex-row flex-wrap">
         <div className="p-2 grid justify-items-center">
           <PhotoShopIcon widthSkillIcon={60} heightSkillIcon={60} />
           <span>PhotoShop</span>
@@ -62,7 +62,7 @@ function Skills() {
         </div>
       </section>
 
-      <h2>Administrativas</h2>
+      <h2 className="text-[20px] lg:text-xl">Administrativas</h2>
       <section className="flex flex-row flex-wrap">
         <div className="p-2 grid justify-items-center">
           <TrelloIcon widthSkillIcon={50} heightSkillIcon={50} />

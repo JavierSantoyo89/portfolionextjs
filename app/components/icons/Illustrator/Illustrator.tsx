@@ -12,6 +12,7 @@ function Illustrator({ widthSkillIcon = 40, heightSkillIcon = 40 }: Props) {
       fill="fill-current"
       className="fill-current"
       xmlns="http://www.w3.org/2000/svg"
+      aria-label="Illustrator"
     >
       <g id="SVGRepo_bgCarrier" strokeWidth="0"></g>
       <g
