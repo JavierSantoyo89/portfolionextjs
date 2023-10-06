@@ -13,8 +13,9 @@ export const metadata: Metadata = {
   viewport: {
     width: "device-width",
     initialScale: 1,
-    maximumScale: 1,
-  },
+    maximumScale: 6,
+    userScalable: true
+     },
   generator: "Next.js",
   keywords: [
     "Next.js",
