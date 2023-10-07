@@ -52,7 +52,7 @@ function Portfolio() {
               <Image src={card.image} alt={card.text} className="h-auto" />
               <div className="content">
                 <div>
-                  <h2><Link href={card.link}>{card.header}</Link> </h2>
+                  <h2><Link href={card.link} passHref>{card.header}</Link> </h2>
                   <p>{card.text}</p>
                 </div>
               </div>

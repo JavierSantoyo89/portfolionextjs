@@ -16,30 +16,23 @@ const Page = () => {
       <section className="cardGlass p-8 animate-fade-right">
         <h2>Academico</h2>
         <br></br>
-        <span>
-          
+        <ul>
         <li><h3>Software testing(Manual)</h3></li>
-      
           <p className="mr-3 ml-6">Universidad Tecnologica Nacional de Buenos Aires</p>
-          <p className="mr-3 ml-6">Octubre 2022 (Certificado)</p>
-      
-        </span>
-        <span>
+          <p className="mr-3 ml-6">Octubre 2022 (Certificado)</p>    
         <li><h3>Desarrollo Web Full Stack</h3></li>
           <p className="mr-3 ml-6">Digital House</p>
           <p className="mr-3 ml-6">Octubre 2021 - Abril 2022 (Certificado)</p>
-        </span>
-        <span>
         <li><h3>LTI: Licenciado en Tecnologias de Informacion</h3></li>
           <p className="mr-3 ml-6">Universidad Autonoma de Nuevo Leon</p>
           <p className="mr-3 ml-6">Junio 2008 - Diciembre 2013 (Titulado)</p>
-        </span>
+        </ul>
         
       </section>
       <section className="cardGlass p-8 animate-fade-left">
         <h2>Laboral</h2>
         <br></br>
-        <span>
+        <ol>
           <li><h3>CURAME ac Mexico</h3></li>
           <p className="mr-3 ml-2">IT / Secretario administrativo</p>
           <p className="mr-3 ml-2">Junio 2017 - Septiembre 2022</p>
@@ -51,8 +44,6 @@ const Page = () => {
           <p className="mr-3 ml-6">Técnico en streaming para congresos.</p>
           <p className="mr-3 ml-6">Contacto de Médicos/Laboratorios. </p>
           <p className="mr-3 ml-6">Soporte Tecnico.</p>
-        </span>
-        <span>
           <li><h3>Blacksteel S.A. de C.V.</h3></li>
           <p className="mr-3 ml-2">Control de produccion</p>
           <p className="mr-3 ml-2">Marzo 2016 - Febrero 2017</p>
@@ -61,7 +52,7 @@ const Page = () => {
           <p className="mr-3 ml-6">Asignación de trasporte de salida.</p>
           <p className="mr-3 ml-6">Facturación (Contpaq i).</p>
           <p className="mr-3 ml-6">Control de herramientas(inventario).</p>
-        </span>
+        </ol>
       </section>
       </div>
     </main>
