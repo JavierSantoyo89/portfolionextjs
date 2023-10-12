@@ -1,12 +1,12 @@
-.generals{
+.main-login{
     display: grid;
     place-items: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     height: 100vh;
-    background-color: grey
+    background-color: black
   }
   
-  .title{
+  .title-login{
     font-weight: bold;
     margin: 0;
   } 
@@ -30,7 +30,8 @@
     margin: 20px 0;
   }
   
-   .button{
+ /* Propiedades basicas del boton */
+   .button-login{
     border-radius: 2em;
     border: 1px solid #FFF;
     background: #21a9d3;
@@ -43,15 +44,15 @@
     cursor: pointer;
   } 
   
-  .button:active{
+  .button-login:active{
     transform: scale(0.95);
   }
   
-  .button:focus{
+  .button-login:focus{
     outline: none
   }
   
-  .form{
+  #form-login{
     background-color: #FFFFFF; 
     display:flex; 
     align-items: center; 
@@ -62,7 +63,7 @@
     text-align: center;
   }
   
-  .input{
+  #input-login{
     background-color: #eee;
     border:none;
     font-size: 16px;
@@ -71,12 +72,12 @@
     width:100%
   }  
   
-  button.ghost{
+  .button-login .ghost{
     background-color: transparent;
     border-color: #FFFFFF
   }
   
-  .containers{
+  .container-login{
     background-color: #fff;
     border-radius: 2em;
     box-shadow: 0 14px 28px rgba(0,0,0,0,25), 0 10px 10px rgba(0,0,0,0,22);
@@ -87,31 +88,31 @@
     min-height:550px
   } 
     
-  .formContainers{
+  .form-container-login{
     position: absolute;
     top: 0;
     height: 100%;
     transition: all 0.6s ease-in-out;
   } 
   
-   .sign-in-containers {
+   .sign-in-container-login {
     left:0;
     width:50%;
     z-index: 2
   }
   
-  .signUpContainers {
+  .sign-up-container-login {
     left: 0;
     width: 50%;
     opacity: 0;
     z-index: 1
   }
   
-  .containers.rightPanelActive .signInContainers {
+  .container-login.rightPanelActive .sign-in-container-login {
     transform: translateX(-100%)
   }
   
-  .containers.rightPanelActive .signUpContainers {
+  .container-login.rightPanelActive .sign-up-container-login {
     transform: translateX(100%);
     opacity: 1;
     z-index: 5;
@@ -129,22 +130,22 @@
     }
   }
   
-  .containers.rightPanelActive .overlayContainers {
+  .container-login.rightPanelActive .overlayContainer-login {
     transform: translateX(-100%)
   }
-  .containers.rightPanelActive .overlay {
+  .container-login.rightPanelActive .overlay {
     transform: translateX(50%)
   }
   
-  .containers.rightPanelActive .overlayLeft {
+  .container-login.rightPanelActive .overlayLeft {
     transform: translateX(0)
   }
   
-  .containers.rightPanelActive .overlayRight {
+  .container-login.rightPanelActive .overlayRight {
     transform: translateX(20%)
   }
   
-  .overlayContainers {
+  .overlayContainer-login {
     position:Absolute;
     top:0;
     left: 50%;

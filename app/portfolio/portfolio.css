@@ -1,18 +1,18 @@
-section {
+#portfolio-section {
   display: flex;
   gap: 10px;
   cursor: pointer;
 
 }
 
-article {
+#portfolio-article {
   position: relative;
   overflow: hidden;
   /* background:  #b3b6b7 ; */
   background: rgb(5,38,89);
   background: linear-gradient(140deg, rgba(5,38,89,0.4317927854735645) 0%, rgba(0,160,255,0.4205883036808473) 100%);   
-  width: 120px;
-  height: 68vh;
+  width: 140px;
+  height: 88vh;
   top: 10px;
   bottom: 10px;
   border-radius: 36px;
@@ -27,26 +27,26 @@ p {
   margin: 0;
 }
 
-article h2 {
+#portfolio-article h2 {
   font-size: 24px;
   font-weight: 400;
   color: rgb(255 255 255 / 96%);
 }
 
-article p {
+#portfolio-article p {
   color: rgb(255 255 255 / 66%);
 }
 
-article.active {
-  width: 400px;
+#portfolio-article.active {
+  width: 600px;
   opacity: 1;
 }
 
-article .content {
+#portfolio-article .content {
   position: absolute;
   bottom: 0;
   left: 0;
-  width: 400px;
+  width: 600px;
   z-index: 1;
   opacity: 0;
   visibility: hidden;
@@ -58,17 +58,18 @@ article .content {
   transition: 0.25s;
 }
 
-article.active .content {
+#portfolio-article.active .content {
   opacity: 1;
   visibility: visible;
 }
 
-article Img {
+#portfolio-article .portfolio-image{
   position: absolute;
+  border-radius: 10px;
   z-index: 0;
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  height: 150%;
+  height: 40%;
   filter: grayscale(0.5);
 }

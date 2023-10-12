@@ -2,7 +2,7 @@ import React from "react";
 
 function SoftSkills() {
   return (
-    <article className="cardGlass p-3 flex-wrap">
+    <article className="cardGlass p-3 grid grid-cols-1">
       <h2>SoftSkills</h2>
       <ul className="list-disc list-inside" role="list">
         <li>Comunicación efectiva</li>

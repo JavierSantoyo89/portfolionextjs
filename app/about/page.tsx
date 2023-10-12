@@ -16,17 +16,23 @@ const Page = () => {
       <section className="cardGlass p-8 animate-fade-right">
         <h2>Academico</h2>
         <br></br>
-        <ul>
-        <li><h3>Software testing(Manual)</h3></li>
-          <p className="mr-3 ml-6">Universidad Tecnologica Nacional de Buenos Aires</p>
-          <p className="mr-3 ml-6">Octubre 2022 (Certificado)</p>    
+        <ol>
+        <li><h3>Software testing(Manual)</h3>
+          <ul>          
+            <li>Universidad Tecnologica Nacional de Buenos Aires</li>
+          <li>Octubre 2022 (Certificado)</li>    
+          </ul></li>
         <li><h3>Desarrollo Web Full Stack</h3></li>
-          <p className="mr-3 ml-6">Digital House</p>
-          <p className="mr-3 ml-6">Octubre 2021 - Abril 2022 (Certificado)</p>
+          <ul>
+          <li>Digital House</li>
+          <li>Octubre 2021 - Abril 2022 (Certificado)</li>
+          </ul>
         <li><h3>LTI: Licenciado en Tecnologias de Informacion</h3></li>
-          <p className="mr-3 ml-6">Universidad Autonoma de Nuevo Leon</p>
-          <p className="mr-3 ml-6">Junio 2008 - Diciembre 2013 (Titulado)</p>
-        </ul>
+          <ul>
+          <li>Universidad Autonoma de Nuevo Leon</li>
+          <li>Junio 2008 - Diciembre 2013 (Titulado)</li> 
+          </ul>
+        </ol>
         
       </section>
       <section className="cardGlass p-8 animate-fade-left">
@@ -34,24 +40,28 @@ const Page = () => {
         <br></br>
         <ol>
           <li><h3>CURAME ac Mexico</h3></li>
-          <p className="mr-3 ml-2">IT / Secretario administrativo</p>
-          <p className="mr-3 ml-2">Junio 2017 - Septiembre 2022</p>
-          <p className="mr-3 ml-6">Control de documentos.</p>
-          <p className="mr-3 ml-6">Primer contacto pacientes (WhatsApp).</p>
-          <p className="mr-3 ml-6">Control de base datos de pacientes (ReNAME).</p>
-          <p className="mr-3 ml-6">Asistente en finanzas.</p>
-          <p className="mr-3 ml-6">Representante legal. </p>
-          <p className="mr-3 ml-6">Técnico en streaming para congresos.</p>
-          <p className="mr-3 ml-6">Contacto de Médicos/Laboratorios. </p>
-          <p className="mr-3 ml-6">Soporte Tecnico.</p>
+            <ul>
+              <li>IT / Secretario administrativo</li>
+              <li>Junio 2017 - Septiembre 2022</li>
+              <li>Control de documentos.</li>
+              <li>Primer contacto pacientes (WhatsApp).</li>
+              <li>Control de base datos de pacientes (ReNAME).</li>
+              <li>Asistente en finanzas.</li>
+              <li>Representante legal. </li>
+              <li>Técnico en streaming para congresos.</li>
+              <li>Contacto de Médicos/Laboratorios. </li>
+              <li>Soporte Tecnico.</li>
+            </ul>
           <li><h3>Blacksteel S.A. de C.V.</h3></li>
-          <p className="mr-3 ml-2">Control de produccion</p>
-          <p className="mr-3 ml-2">Marzo 2016 - Febrero 2017</p>
-          <p className="mr-3 ml-6">Control de materia prima (Inventario).</p>
-          <p className="mr-3 ml-6">Control de producción (Procesos y asignación de personal).</p>
-          <p className="mr-3 ml-6">Asignación de trasporte de salida.</p>
-          <p className="mr-3 ml-6">Facturación (Contpaq i).</p>
-          <p className="mr-3 ml-6">Control de herramientas(inventario).</p>
+          <ul>
+          <li>Control de produccion</li>
+          <li>Marzo 2016 - Febrero 2017</li>
+          <li>Control de materia prima (Inventario).</li>
+          <li>Control de producción (Procesos y asignación de personal).</li>
+          <li>Asignación de trasporte de salida.</li>
+          <li>Facturación (Contpaq i).</li>
+          <li>Control de herramientas(inventario).</li>
+          </ul>
         </ol>
       </section>
       </div>
