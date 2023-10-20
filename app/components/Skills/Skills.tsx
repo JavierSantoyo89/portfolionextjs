@@ -19,13 +19,15 @@ import {
 } from "../index";
 function Skills() {
   return (
-    <div className="grid sm:grid-cols-3 lg:grid-cols-5 cardGlass p-3 ">
+    <div className="cardGlass">
+
+      <h2 className="grid place-content-center mt-3 ">Skills</h2>
+    <div className="grid sm:grid-cols-3 lg:grid-cols-5 p-3 ">
       {/* <h2>Skills tech.</h2> */}
-      
         {/*Skills contentr*/}
-        <div className="mr-5">
-        <h3 className="grid place-content-center mb-5 mr">FrontEnd</h3>
-        <div className="grid grid-cols-2 gap-4">
+        <div className="cardGlass mr-5 ml-1 ">
+        <h3 className="grid place-content-center mb-5 ">FrontEnd</h3>
+        <div className="grid grid-cols-2 gap-4 mb-5">
 
           <span className="grid place-items-center">
             <HtmlIcon widthSkillIcon={60} heightSkillIcon={60} />
@@ -65,7 +67,7 @@ function Skills() {
 
         </div>
       
-          <section className="mr-5">
+          <section className="cardGlass mr-5">
           <h3 className="grid place-content-center mb-5">BackEnd</h3>
           <div className="grid grid-cols-2 gap-4">
             <span className="grid place-items-center">
@@ -95,7 +97,7 @@ function Skills() {
           </div>
           </section>
       
-          <section className="mr-5">
+          <section className="cardGlass mr-5">
           <h3 className="grid place-content-center mb-5">Base de datos</h3>
           <div className=" grid grid-cols-1  gap-4">
             <span className="grid place-items-center">
@@ -110,7 +112,7 @@ function Skills() {
           </div>
           </section>
 
-        <section className="mr-5">
+        <section className="cardGlass mr-5">
         <h3 className="grid place-content-center mb-5">UI/UX</h3>
         <div className=" grid grid-cols-1  gap-4">
           <span className="grid place-items-center">
@@ -125,7 +127,7 @@ function Skills() {
         </div>
         </section>
 
-<section className="mr-5">
+<section className="cardGlass ">
         <h3  className="grid place-content-center mb-5">Administrativas</h3>
         <div className=" grid grid-cols-1  gap-4">
 
@@ -135,6 +137,7 @@ function Skills() {
           </span>
         </div>
 </section>
+    </div>
     </div>
   );
 }

@@ -6,11 +6,13 @@ interface Props {
 
 function Statistics({ sizeStadistics = 800 }: Props) {
   return (
-    <div className="cardGlass flex flex-wrap p-3 justify-center  ">
-        <section className="m-5 flex flex-col ">
+    <div className="cardGlass p-3" >
+      <h2>Estadisticas en Github</h2>
+
+    <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-3   ">
+        <section className="m-5">
           <Image
-            // className="w-fit h-1/2  "
-            className="w-[22vw] "
+            className="w-[100vw] md:w-[34vw] lg:w-[30vw]"
             height={sizeStadistics}
             width={sizeStadistics}
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavierSantoyo89&theme=buefy&layout=compact"
@@ -18,16 +20,16 @@ function Statistics({ sizeStadistics = 800 }: Props) {
           ></Image>
         </section>
 
-        <section className="m-5 grid grid-rows-1 ">
+        <section className="m-5">
           <Image
-            className="w-[29vw]"
+            className="w-[100vw] md:w-[50vw] lg:w-[40vw]"
             height={sizeStadistics}
             width={sizeStadistics}
             src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
             alt="Stars on Github"
           ></Image>
         </section>
-    
+    </div>
     </div>
   )
 }

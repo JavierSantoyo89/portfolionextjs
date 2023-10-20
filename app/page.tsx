@@ -9,7 +9,7 @@ export default function Home() {
       bg-black p-3 bg-no-repeat bg-cover bg-fixed bg-center bg-dia dark:bg-night box-content animate-fade"
     >
       {/* Card de bienvenida */}
-      <p className=" cardGlass p-3 ml-3 mr-9">
+      <p className=" cardGlass p-4 ml-6 mr-14 gap-5 ">
         Desarrrollo sitios web enfocados tanto al cliente final como empresas,
         usando tecnologias que varian entre el FrontEnd(Lo visual para el
         usuario), HTML5, CSS, Javascript como el Backend(Modelo de negocio y
@@ -26,8 +26,9 @@ export default function Home() {
         <Skills />
         <SoftSkills />
       </div>
-      <h2>Estadisticas en Github</h2>
+      <div className="  grid m:grid-cols-2 xl:grid-flow-col p-4 ml-3 mr-9 gap-5 ">
       <Statistics />
+      </div>
     </main>
   );
 }
