@@ -1,3 +1,4 @@
+'use client'
 /* eslint-disable @next/next/no-async-client-component */
 
 import Card from "../../../components/Card/Card"

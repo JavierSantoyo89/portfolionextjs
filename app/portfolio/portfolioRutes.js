@@ -45,7 +45,7 @@ const cards = [
     image: img2,
     width: 525,
     height: 100,
-    link: "portfolio/login",
+    link: "https://javiersantoyo89.github.io/Login/",
     text: "Practica de diseño usando typescript y CSS puro",
     skills: [
       <HtmlIcon key={1} widthSkillIcon={60} heightSkillIcon={60} />,
