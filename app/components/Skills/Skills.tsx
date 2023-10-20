@@ -23,9 +23,8 @@ function Skills() {
 
       <h2 className="grid place-content-center mt-3 ">Skills</h2>
     <div className="grid sm:grid-cols-3 lg:grid-cols-5 p-3 ">
-      {/* <h2>Skills tech.</h2> */}
-        {/*Skills contentr*/}
-        <div className="cardGlass mr-5 ml-1 ">
+        {/*FrontEnd section*/}
+        <div className="cardGlass mr-5 ml-1 mb-5">
         <h3 className="grid place-content-center mb-5 ">FrontEnd</h3>
         <div className="grid grid-cols-2 gap-4 mb-5">
 
@@ -67,9 +66,10 @@ function Skills() {
 
         </div>
       
-          <section className="cardGlass mr-5">
+      {/*Backend section*/}
+          <section className="cardGlass mr-5 mb-5">
           <h3 className="grid place-content-center mb-5">BackEnd</h3>
-          <div className="grid grid-cols-2 gap-4">
+          <div className="grid grid-cols-2 gap-4 ">
             <span className="grid place-items-center">
               <JavaScriptIcon widthSkillIcon={60} heightSkillIcon={60} />
               JavaScript
@@ -80,12 +80,7 @@ function Skills() {
               node JS
             </span>
 
-            <span className="grid place-items-center">
-              <TypescriptIcon widthSkillIcon={60} heightSkillIcon={60} />
-              TypeScript
-            </span>
-
-            <span className="grid place-items-center">
+            <span className="grid place-items-center ">
               <Express widthSkillIcon={60} heightSkillIcon={60} />
               Express JS
             </span>
@@ -94,12 +89,18 @@ function Skills() {
               <EjsIcon widthSkillIcon={60} heightSkillIcon={60} />
               Ejs
             </span>
+
+            <span className="grid place-items-center">
+              <TypescriptIcon widthSkillIcon={60} heightSkillIcon={60} />
+              TypeScript
+            </span>
           </div>
           </section>
       
-          <section className="cardGlass mr-5">
+      {/*Database section*/}
+          <section className="cardGlass mr-5 mb-5">
           <h3 className="grid place-content-center mb-5">Base de datos</h3>
-          <div className=" grid grid-cols-1  gap-4">
+          <div className=" grid grid-flow-col lg:grid-cols-2  gap-4">
             <span className="grid place-items-center">
               <SqlServerIcon widthSkillIcon={60} heightSkillIcon={60} />
               SQL Server
@@ -112,9 +113,10 @@ function Skills() {
           </div>
           </section>
 
-        <section className="cardGlass mr-5">
+{/*UI/UX section*/}
+        <section className="cardGlass mr-5 mb-5">
         <h3 className="grid place-content-center mb-5">UI/UX</h3>
-        <div className=" grid grid-cols-1  gap-4">
+        <div className=" grid grid-flow-col  gap-4">
           <span className="grid place-items-center">
             <PhotoShopIcon widthSkillIcon={60} heightSkillIcon={60} />
             PhotoShop
@@ -127,7 +129,8 @@ function Skills() {
         </div>
         </section>
 
-<section className="cardGlass ">
+{/*Administrtion section*/}
+<section className="cardGlass mr-5 mb-5">
         <h3  className="grid place-content-center mb-5">Administrativas</h3>
         <div className=" grid grid-cols-1  gap-4">
 

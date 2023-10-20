@@ -12,7 +12,7 @@ function Statistics({ sizeStadistics = 800 }: Props) {
     <div className="grid place-items-center grid-cols-1 md:grid-cols-2 lg:grid-cols-2 p-3   ">
         <section className="m-5">
           <Image
-            className="w-[100vw] md:w-[34vw] lg:w-[30vw]"
+            className="w-[100vw] md:w-[30vw] lg:w-[30vw]"
             height={sizeStadistics}
             width={sizeStadistics}
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavierSantoyo89&theme=buefy&layout=compact"
@@ -22,7 +22,7 @@ function Statistics({ sizeStadistics = 800 }: Props) {
 
         <section className="m-5">
           <Image
-            className="w-[100vw] md:w-[50vw] lg:w-[40vw]"
+            className="w-[100vw] md:w-[70vw] lg:w-[40vw]"
             height={sizeStadistics}
             width={sizeStadistics}
             src="https://github-readme-stats.vercel.app/api?username=JavierSantoyo89&theme=buefy&show_icons=true"
