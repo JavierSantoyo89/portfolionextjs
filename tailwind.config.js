@@ -9,12 +9,12 @@ module.exports = {
   ],
   darkMode: "class",
   theme: {
-    fontFamily:{
-      'sans': ['ui-sans-serif', 'system-ui'],
-      'serif': ['ui-serif', 'Georgia'],
-      'mono': ['ui-monospace', 'SFMono-Regular'],
-      'display': ['Oswald'],
-      'body': ['"Open Sans"'],
+    fontFamily: {
+      sans: ["ui-sans-serif", "system-ui"],
+      serif: ["ui-serif", "Georgia"],
+      mono: ["ui-monospace", "SFMono-Regular"],
+      display: ["Oswald"],
+      body: ['"Open Sans"'],
     },
     extend: {
       backgroundImage: {
@@ -24,6 +24,7 @@ module.exports = {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
         "gradient-conic":
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+        "animate-fade": "animate-fade",
       },
     },
   },
@@ -32,4 +33,4 @@ module.exports = {
     require("tw-elements/dist/plugin.cjs"),
     require("tailwindcss-animated"),
   ],
-}
+};

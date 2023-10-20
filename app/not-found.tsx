@@ -18,7 +18,8 @@ function NotFound() {
     bg-404Error 
     bg-center 
     bg-no-repeat 
-    bg-contain"
+    bg-contain
+    animate-fade"
     >
       <section className=" m-auto ">
         <p className="bg-[#da7024] px-2 text-sm rounded rotate-12  ">

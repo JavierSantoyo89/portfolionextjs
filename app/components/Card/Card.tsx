@@ -13,22 +13,23 @@ interface Props {
 }
 
 function Card({ data }: Props) {
-  let formattedType = data.type
-  formattedType ||= "no type"
+  // let formattedType = data.type
+  // formattedType ||= "no type"
   return (
-    <div className="Card">
-      {!!data.image && (
-        <Image
-          className="perfil"
-          src={data.image}
-          width={100}
-          height={100}
-          alt="character"
-        />
-      )}
-      <p> Name:: {data.name}</p>
-      <p> type: {formattedType}</p>
-      <p> Creater: {data.created}</p>
+    <div className="">
+      d
+      {/* {!!data.image && ( */}
+      {/* //   <Image */}
+      {/* //     className=""
+      //     src={data.image}
+      //     width={100}
+      //     height={100}
+      //     alt="character"
+      //   /> */}
+      {/* // )} */}
+      {/* // <p> Name:: {data.name}</p>
+      // <p> type: {formattedType}</p>
+      // <p> Creater: {data.created}</p> */}
     </div>
   )
 }

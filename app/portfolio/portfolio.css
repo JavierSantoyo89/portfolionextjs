@@ -12,7 +12,7 @@
   background: rgb(5,38,89);
   background: linear-gradient(140deg, rgba(5,38,89,0.4317927854735645) 0%, rgba(0,160,255,0.4205883036808473) 100%);   
   width: 140px;
-  height: 88vh;
+  height: 78vh;
   top: 10px;
   bottom: 10px;
   border-radius: 36px;
@@ -70,6 +70,7 @@ p {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  height: 40%;
+  height: 50%;
+  width: 70%;
   filter: grayscale(0.5);
 }
