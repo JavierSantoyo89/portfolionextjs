@@ -19,114 +19,122 @@ import {
 } from "../index";
 function Skills() {
   return (
-    <div className="cardGlass p-3 ">
-      <h2>Skills tech.</h2>
-      <article className=" grid grid-cols-5 p-3 sm:text-xs">
+    <div className="grid sm:grid-cols-3 lg:grid-cols-5 cardGlass p-3 ">
+      {/* <h2>Skills tech.</h2> */}
+      
         {/*Skills contentr*/}
-        <h3>FrontEnd</h3>
-        <section className=" grid grid-cols-2 p-2 gap-5 ">
-          <span>
+        <div className="mr-5">
+        <h3 className="grid place-content-center mb-5 mr">FrontEnd</h3>
+        <div className="grid grid-cols-2 gap-4">
+
+          <span className="grid place-items-center">
             <HtmlIcon widthSkillIcon={60} heightSkillIcon={60} />
             HTML
           </span>
 
-          <span>
+          <span className="grid place-items-center">
             <Css3 widthSkillIcon={60} heightSkillIcon={60} />
             CSS3
           </span>
 
-          <span>
+          <span className="grid place-items-center">
             <JavaScriptIcon widthSkillIcon={60} heightSkillIcon={60} />
             JavaScript
           </span>
 
-          <span>
+          <span className="grid place-items-center">
             <BootstrapIcon widthSkillIcon={60} heightSkillIcon={60} />
             Bootstrap
           </span>
 
-          <span>
+          <span className="grid place-items-center">
             <NextIcon widthSkillIcon={60} heightSkillIcon={60} />
             NextJS 13
           </span>
 
-          <span>
+          <span className="grid place-items-center">
             <TailwindIcon widthSkillIcon={60} heightSkillIcon={60} />
             Tailwind
           </span>
 
-          <span>
+          <span className="grid place-items-center">
             <WordPressIcon widthSkillIcon={60} heightSkillIcon={60} />
             WordPress
           </span>
-        </section>
+        </div>
 
-        <section className="">
-          <h3>BackEnd</h3>
-          <section className=" grid grid-cols-2  p-2 ">
-            <span>
+        </div>
+      
+          <section className="mr-5">
+          <h3 className="grid place-content-center mb-5">BackEnd</h3>
+          <div className="grid grid-cols-2 gap-4">
+            <span className="grid place-items-center">
               <JavaScriptIcon widthSkillIcon={60} heightSkillIcon={60} />
               JavaScript
             </span>
 
-            <span>
+            <span className="grid place-items-center">
               <NodeJsIcon widthSkillIcon={60} heightSkillIcon={60} />
               node JS
             </span>
 
-            <span>
+            <span className="grid place-items-center">
               <TypescriptIcon widthSkillIcon={60} heightSkillIcon={60} />
               TypeScript
             </span>
 
-            <span>
+            <span className="grid place-items-center">
               <Express widthSkillIcon={60} heightSkillIcon={60} />
               Express JS
             </span>
 
-            <span>
+            <span className="grid place-items-center">
               <EjsIcon widthSkillIcon={60} heightSkillIcon={60} />
               Ejs
             </span>
+          </div>
           </section>
-        </section>
-
-        <section className="grid grid-cols-2 ">
-          <h3>Base de datos</h3>{" "}
-          <section className=" flex flex-row flex-wrap  p-2 gap-5 ">
-            <span>
+      
+          <section className="mr-5">
+          <h3 className="grid place-content-center mb-5">Base de datos</h3>
+          <div className=" grid grid-cols-1  gap-4">
+            <span className="grid place-items-center">
               <SqlServerIcon widthSkillIcon={60} heightSkillIcon={60} />
               SQL Server
             </span>
 
-            <span>
+            <span className="grid place-items-center">
               <MySqlIcon widthSkillIcon={60} heightSkillIcon={60} />
               MySQL
             </span>
+          </div>
           </section>
-        </section>
 
-        <h3>UI/UX</h3>
-        <section className="flex flex-row flex-wrap p-2 gap-5">
-          <span>
+        <section className="mr-5">
+        <h3 className="grid place-content-center mb-5">UI/UX</h3>
+        <div className=" grid grid-cols-1  gap-4">
+          <span className="grid place-items-center">
             <PhotoShopIcon widthSkillIcon={60} heightSkillIcon={60} />
             PhotoShop
           </span>
 
-          <span>
+          <span className="grid place-items-center">
             <Illustrator widthSkillIcon={60} heightSkillIcon={60} />
             Illustrator
           </span>
+        </div>
         </section>
 
-        <h3 className="text-[20px] lg:text-xl">Administrativas</h3>
-        <section className="flex flex-row flex-wrap">
-          <span>
+<section className="mr-5">
+        <h3  className="grid place-content-center mb-5">Administrativas</h3>
+        <div className=" grid grid-cols-1  gap-4">
+
+          <span className="grid place-items-center">
             <TrelloIcon widthSkillIcon={50} heightSkillIcon={50} />
             Trello
           </span>
-        </section>
-      </article>
+        </div>
+</section>
     </div>
   );
 }
