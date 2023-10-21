@@ -7,7 +7,7 @@ export default function Head() {
   return (
     <header>
       {/* <!-- component --> */}
-      <nav className="bg-white shadow dark:bg-gray-800">
+      <nav className="bg-white shadow dark:bg-gray-800 w-[100]">
         <div className="container flex items-center justify-center p-2 mx-auto text-gray-600 capitalize dark:text-gray-300">
           <Link
             href="/"

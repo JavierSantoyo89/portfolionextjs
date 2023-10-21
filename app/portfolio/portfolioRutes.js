@@ -50,7 +50,7 @@ const cards = [
     skills: [
       <HtmlIcon key={1} widthSkillIcon={60} heightSkillIcon={60} />,
       <Css3 key={2} widthSkillIcon={60} heightSkillIcon={60} />,
-      <JavaScriptIcon key={2} widthSkillIcon={60} heightSkillIcon={60} />,
+      <JavaScriptIcon key={3} widthSkillIcon={60} heightSkillIcon={60} />,
     ],
   },
   {
@@ -64,7 +64,7 @@ const cards = [
     skills: [
       <HtmlIcon key={1} widthSkillIcon={60} heightSkillIcon={60} />,
       <Css3 key={2} widthSkillIcon={60} heightSkillIcon={60} />,
-      <NodeJsIcon key={4} widthSkillIcon={60} heightSkillIcon={60} />,
+      <NodeJsIcon key={3} widthSkillIcon={60} heightSkillIcon={60} />,
     ],
   },
   {
@@ -76,12 +76,13 @@ const cards = [
     link: "portfolio/frankys",
     text: "Servicio backend enfocado a la industria metal-mecanica",
     skills: [
-      <HtmlIcon key={1} widthSkillIcon={60} heightSkillIcon={60} />,
-      <Css3 key={2} widthSkillIcon={60} heightSkillIcon={60} />,
-      <EjsIcon key={3} widthSkillIcon={60} heightSkillIcon={60} />,
-      <NodeJsIcon key={4} widthSkillIcon={60} heightSkillIcon={60} />,
-      <Express key={5} widthSkillIcon={60} heightSkillIcon={60} />,
-      <MySqlIcon key={6} widthSkillIcon={60} heightSkillIcon={60} />,
+      <HtmlIcon key={1} widthSkillIcon={50} heightSkillIcon={50} />,
+      <Css3 key={2} widthSkillIcon={50} heightSkillIcon={50} />,
+      <EjsIcon key={3} widthSkillIcon={50} heightSkillIcon={50} />,
+      <NodeJsIcon key={4} widthSkillIcon={50} heightSkillIcon={50} />,
+      <Express key={5} widthSkillIcon={50} heightSkillIcon={50} />,
+      <MySqlIcon key={6} widthSkillIcon={50} heightSkillIcon={50} />,
+      <TypescriptIcon key={7} widthSkillIcon={50} heightSkillIcon={50} />,
     ],
   },
   // {

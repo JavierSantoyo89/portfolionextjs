@@ -9,8 +9,10 @@ function Portfolio() {
   const [active, setActive] = useState(0);
   const handleToggle = (index: number) => setActive(index);
   return (
-    <main className="grid place-items-center h-[100svh] ">
-      <section id="portfolio-section">
+    <main className="h-[89vh] w-[100]
+    bg-black p-3 bg-no-repeat bg-cover bg-fixed bg-center bg-dia dark:bg-night box-content animate-fade"
+   >
+      <section className="" id="portfolio-section">
         {cards.map((card, index) => {
           const isActive = active === index ? "active" : "";
           let skill = card.skills;

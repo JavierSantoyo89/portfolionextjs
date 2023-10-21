@@ -7,7 +7,7 @@ export default function Footer() {
     //? En el <footer> le asignas el color de la letra y SVG's para light y dark
 
     <footer 
-     className=" bg-neutral-200 dark:bg-neutral-700 flex flex-col justify-center overflow-hidden mx-auto" >
+     className=" bg-neutral-200 dark:bg-neutral-700 flex flex-col justify-center overflow-hidden mx-auto w-[100]" >
  
         <div className=" flex flex-row text-center justify-center gap-4 m-0">
           <Link
