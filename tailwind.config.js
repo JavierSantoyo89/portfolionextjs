@@ -6,6 +6,7 @@ module.exports = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "./src/**/*.{html,js}",
     "./node_modules/tw-elements/dist/js/**/*.js",
+    "./node_modules/flowbite-react/**/*.js"
   ],
   darkMode: "class",
   theme: {

@@ -1,3 +1,4 @@
+
 import { Character } from "../models/index"
 
 export const getCharacters = (): Promise<Character[]> => {
@@ -5,4 +6,10 @@ export const getCharacters = (): Promise<Character[]> => {
   return fetch(url)
     .then((response) => response.json())
     .then((data) => data.results)
-}
+    .catch(error=>{
+      console.log('Feching error');
+    }
+      
+    )
+
+  }
