@@ -17,6 +17,14 @@ module.exports = {
       display: ["Oswald"],
       body: ['"Open Sans"'],
     },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+      '3xl': '1920px',
+    },
     extend: {
       backgroundImage: {
         "404Error": "url('../public/Errors404.png')",
