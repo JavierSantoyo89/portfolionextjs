@@ -6,20 +6,21 @@ export default function Home() {
     /*Es el contenerdor padre */
     <main
       className="h-full w-full
-      bg-black p-3 bg-no-repeat bg-cover bg-fixed bg-center bg-dia dark:bg-night box-content animate-fade"
+      bg-black p-3 bg-no-repeat bg-cover bg-fixed bg-center bg-dia dark:bg-night box-content animate-fade animate-delay-250"
     >
       {/* Card de bienvenida */}
-      <p className=" cardGlass p-4 ml-6 mr-14 gap-5 animate-fade ">
-        Desarrrollo sitios web enfocados tanto al cliente final como empresas,
-        usando tecnologias que varian entre el FrontEnd(Lo visual para el
-        usuario), HTML5, CSS, Javascript como el Backend(Modelo de negocio y
-        funcionalidad) Soy desarrollador web Fullstack especializado en Backend
-        y funciones administrativas enfocado en el proyecto y/o cliente. En mi
-        portafolio encontraras algunos proyectos personales y otros en
-        producción desde aplicaciones básicas como complejas enfocadas a un
-        rubro en específico. Si quieres saber mas de mi entra al apartado “sobre
-        mi” y si deseas contáctame
-      </p>
+      <div className=" cardGlass p-4 ml-6 mr-14 gap-5 animate-fade ">
+        <p>
+          Soy desarrollador web Full Stack especializado en backend, frontend
+          y testing. A pesar de tener una discapacidad motriz, busco
+          oportunidades de desarrollo remoto. Tengo experiencia en proyectos
+          remotos, trabajando con responsabilidad, en equipo y siguiendo las
+          políticas de privacidad del cliente/empresa. Estoy comprometido con
+          ofrecer soluciones de calidad en el desarrollo web. Si buscas un
+          desarrollador remoto con habilidades en backend, frontend y testing,
+          ¡contáctame para discutir cómo puedo contribuir a tu proyecto!
+        </p>
+      </div>
 
       <div className="  grid m:grid-cols-2 xl:grid-flow-col p-4 ml-3 mr-9 gap-5  animate-fade animate-once animate-delay-500">
         {/*contenedor estadistica y skills*/}
@@ -27,7 +28,7 @@ export default function Home() {
         <SoftSkills />
       </div>
       <div className="  grid m:grid-cols-2 xl:grid-flow-col p-4 ml-3 mr-9 gap-5  animate-fade animate-once animate-delay-700">
-      <Statistics />
+        <Statistics />
       </div>
     </main>
   );

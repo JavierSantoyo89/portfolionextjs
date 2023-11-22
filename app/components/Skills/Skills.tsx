@@ -16,13 +16,15 @@ import {
   Express,
   SqlServerIcon,
   MySqlIcon,
+  JiraIcon,
+  AsanaIcon,
 } from "../index";
 function Skills() {
   return (
-    <div className="cardGlass">
+    <article className="cardGlass">
 
       <h2 className="grid place-content-center mt-3 ">Skills</h2>
-    <div className="grid sm:grid-cols-3 lg:grid-cols-5 p-3 ">
+    <div className="grid sm:grid-cols-3 lg:grid-cols-5 pl-5 ">
         {/*FrontEnd section*/}
         <div className="cardGlass mr-5 ml-1 mb-5">
         <h3 className="grid place-content-center mb-5 ">FrontEnd</h3>
@@ -132,16 +134,24 @@ function Skills() {
 {/*Administrtion section*/}
 <section className="cardGlass mr-5 mb-5">
         <h3  className="grid place-content-center mb-5">Administrativas</h3>
-        <div className=" grid grid-cols-1  gap-4">
+        <div className=" grid grid-flow-col  gap-4">
 
           <span className="grid place-items-center">
             <TrelloIcon widthSkillIcon={50} heightSkillIcon={50} />
             Trello
           </span>
+          <span className="grid place-items-center">
+            <JiraIcon widthSkillIcon={50} heightSkillIcon={50} />
+            Jira
+          </span>
+          <span className="grid place-items-center">
+            <AsanaIcon widthSkillIcon={50} heightSkillIcon={50} />
+            Asana
+          </span>
         </div>
 </section>
     </div>
-    </div>
+    </article>
   );
 }
 
