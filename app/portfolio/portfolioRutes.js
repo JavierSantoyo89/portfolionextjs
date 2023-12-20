@@ -73,7 +73,7 @@ const cards = [
     image: img3,
     width: 525,
     height: 100,
-    link: "portfolio/frankys",
+    link: "portfolio/metalmecanica",
     text: "Servicio backend enfocado a la industria metal-mecanica",
     skills: [
       <HtmlIcon key={1} widthSkillIcon={50} heightSkillIcon={50} />,

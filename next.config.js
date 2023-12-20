@@ -13,9 +13,10 @@ const nextConfig = {
         pathname: "/**",
       },
       { hostname: "tecdn.b-cdn.net" },
+
     ],
     dangerouslyAllowSVG: true,
   },
-}
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;

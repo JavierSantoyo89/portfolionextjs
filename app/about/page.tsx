@@ -1,12 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 const Page = () => {
-  function handleClickDescargar() {
-    <Link
-      href="/Francisco_Javier_Santoyo_Rios_tester_CV.pdf"
-      download="Francisco_Javier_Santoyo_Rios_tester_CV.pdf"
-    ></Link>;
-  }
   return (
     <main
       className="h-100 w-auto
@@ -29,7 +23,12 @@ const Page = () => {
       </section>
 
       <section className="grid grid-rows-1 place-content-center animate-fade-down  gap-2 p-4 ml-3 mr-3 sm:mb-5">
-        <Link href="/Francisco_Javier_Santoyo_Rios_tester_CV.pdf" className="cardGlass p-3" download>
+        <Link
+          href="/Francisco_Javier_Santoyo_Rios_CV.pdf"
+          className="cardGlass p-3"
+          aria-label="Descargar curriculo de Javier Santoyo"
+          download
+        >
           Descargar CV
         </Link>
       </section>
