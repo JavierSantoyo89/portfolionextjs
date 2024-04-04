@@ -28,6 +28,12 @@ export default function Head() {
             Sobre mi
           </Link>
           <Link
+            href="/ong"
+            className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
+          >
+            ONG`s
+          </Link>
+          <Link
             href="/contact"
             className="border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-blue-500 mx-1.5 sm:mx-6"
           >
