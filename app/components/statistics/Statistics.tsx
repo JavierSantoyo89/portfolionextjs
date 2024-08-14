@@ -15,6 +15,7 @@ function Statistics({ sizeStadistics = 800 }: Props) {
             className="w-[100vw] md:w-[30vw] lg:w-[30vw]"
             height={sizeStadistics}
             width={sizeStadistics}
+            // src="https://camo.githubusercontent.com/12630deac8365e4e6d0aaa33b9bc2cbd58d5c6ed68e334b4b32685229804aebb/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d4a617669657253616e746f796f3839267468656d653d62756566792673686f775f69636f6e733d74727565"
             src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavierSantoyo89&theme=buefy&layout=compact"
             alt="Most used languages"
           ></Image>

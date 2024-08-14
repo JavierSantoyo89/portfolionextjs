@@ -13,6 +13,7 @@ const nextConfig = {
         pathname: "/**",
       },
       { hostname: "tecdn.b-cdn.net" },
+      { hostname: "camo.githubusercontent.com" },
 
     ],
     dangerouslyAllowSVG: true,
