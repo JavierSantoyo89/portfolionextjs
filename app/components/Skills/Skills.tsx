@@ -18,6 +18,7 @@ import {
   MySqlIcon,
   JiraIcon,
   AsanaIcon,
+  ReactIcon,
 } from "../index";
 function Skills() {
   return (
@@ -63,6 +64,11 @@ function Skills() {
           <span className="grid place-items-center">
             <WordPressIcon widthSkillIcon={60} heightSkillIcon={60} />
             WordPress
+          </span>
+
+          <span className="grid place-items-center">
+            <ReactIcon widthSkillIcon={60} heightSkillIcon={60} />
+            React 19
           </span>
         </div>
 

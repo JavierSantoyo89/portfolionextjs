@@ -28,3 +28,4 @@ export { default as Express } from './icons/express/Express';
 export { default as HtmlIcon } from './icons/htmlIcon/HtmlIcon';
 export { default as JiraIcon } from './icons/jira/JiraIcon';
 export { default as Statistics } from './statistics/Statistics';
+export { default as ReactIcon } from './icons/react/ReactIcon'
