@@ -19,7 +19,11 @@ import {
   JiraIcon,
   AsanaIcon,
   ReactIcon,
+  MariaDBIcon,
+  PostmanIcon,
+  Ubuntu,
 } from "../index";
+import GitIcon from "../icons/Git/GitIcon";
 function Skills() {
   return (
     <article className="cardGlass">
@@ -77,7 +81,7 @@ function Skills() {
       {/*Backend section*/}
           <section className="cardGlass mr-5 mb-5">
           <h3 className="grid place-content-center mb-5">BackEnd</h3>
-          <div className="grid grid-cols-2 gap-4 ">
+          <div className="grid grid-cols-2 gap-4 mb-5">
             <span className="grid place-items-center">
               <JavaScriptIcon widthSkillIcon={60} heightSkillIcon={60} />
               JavaScript
@@ -108,7 +112,7 @@ function Skills() {
       {/*Database section*/}
           <section className="cardGlass mr-5 mb-5">
           <h3 className="grid place-content-center mb-5">Base de datos</h3>
-          <div className=" grid grid-flow-col lg:grid-cols-2  gap-4">
+          <div className="grid grid-cols-2 gap-4 mb-5">
             <span className="grid place-items-center">
               <SqlServerIcon widthSkillIcon={60} heightSkillIcon={60} />
               SQL Server
@@ -118,13 +122,27 @@ function Skills() {
               <MySqlIcon widthSkillIcon={60} heightSkillIcon={60} />
               MySQL
             </span>
+
+            <span className="grid place-items-center">
+              <MariaDBIcon widthSkillIcon={60} heightSkillIcon={60} />
+              MariaDB
+            </span>
+
+            <span className="grid place-items-center">
+              <PostmanIcon widthSkillIcon={60} heightSkillIcon={60} />
+              Postman
+            </span>
+            <span className="grid place-items-center">
+              <Ubuntu widthSkillIcon={60} heightSkillIcon={60} />
+              Linux (Ubuntu)
+            </span>
           </div>
           </section>
 
 {/*UI/UX section*/}
         <section className="cardGlass mr-5 mb-5">
         <h3 className="grid place-content-center mb-5">UI/UX</h3>
-        <div className=" grid grid-flow-col  gap-4">
+        <div className="grid grid-cols-2 gap-4 mb-5">
           <span className="grid place-items-center">
             <PhotoShopIcon widthSkillIcon={60} heightSkillIcon={60} />
             PhotoShop
@@ -140,7 +158,7 @@ function Skills() {
 {/*Administrtion section*/}
 <section className="cardGlass mr-5 mb-5">
         <h3  className="grid place-content-center mb-5">Administrativas</h3>
-        <div className=" grid grid-flow-col  gap-4">
+        <div className="grid grid-cols-2 gap-4 mb-5">
 
           <span className="grid place-items-center">
             <TrelloIcon widthSkillIcon={50} heightSkillIcon={50} />
@@ -153,6 +171,10 @@ function Skills() {
           <span className="grid place-items-center">
             <AsanaIcon widthSkillIcon={50} heightSkillIcon={50} />
             Asana
+          </span>
+          <span className="grid place-items-center">
+            <GitIcon widthSkillIcon={50} heightSkillIcon={50} />
+            Git
           </span>
         </div>
 </section>

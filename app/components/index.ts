@@ -1,3 +1,5 @@
+import MariaDBIcon from './icons/mariadb/MariaDBIcon';
+
 export { default as Card } from './Card/Card';
 export { default as Footer } from './Footer/Footer';
 export { default as Skills } from './Skills/Skills';
@@ -29,3 +31,6 @@ export { default as HtmlIcon } from './icons/htmlIcon/HtmlIcon';
 export { default as JiraIcon } from './icons/jira/JiraIcon';
 export { default as Statistics } from './statistics/Statistics';
 export { default as ReactIcon } from './icons/react/ReactIcon'
+export {default as MariaDBIcon} from './icons/mariadb/MariaDBIcon'
+export {default as PostmanIcon} from './icons/Postman/PostmanIcon'
+export {default as Ubuntu } from './icons/Ubuntu/Ubuntu'
