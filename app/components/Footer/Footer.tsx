@@ -30,7 +30,7 @@ export default function Footer() {
           </Link>
         </div>
       <div className="p-1 text-center text-neutral-700 dark:text-neutral-200">
-        Copyright © 2023
+        Copyright © 2025
       </div>
     </footer>
   )
